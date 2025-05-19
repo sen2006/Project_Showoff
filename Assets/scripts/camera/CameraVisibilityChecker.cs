@@ -6,6 +6,10 @@ public class CameraVisibilityChecker : MonoBehaviour
 {
     Camera cam;
 
+    [Header("Debud Data")]
+    [SerializeField, ReadOnly] int visiblePOICount;
+    [SerializeField, ReadOnly] int achievedScore;
+
     public void Awake()
     {
         cam = GetComponent<Camera>();
@@ -39,13 +43,10 @@ public class CameraVisibilityChecker : MonoBehaviour
             }
         }
   
-        int achievedScore = 0;
         foreach (PhotoPOI POI in visiblePOIs)
         {
             achievedScore += POI.GetPoints();
         }
-
-        Debug.Log("Visible objects count: " + visiblePOIs.Count);
-        Debug.Log("Visible objects score: " + achievedScore);
+        visiblePOICount = visiblePOIs.Count;
     }
 }
