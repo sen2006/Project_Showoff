@@ -48,11 +48,11 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionAmount: -0.02
-    - _Smoothness: 0.65
+    - _Smoothness: 0
     m_Colors:
-    - _Color: {r: 0, g: 1.866066, b: 1.8470036, a: 1}
+    - _Color: {r: 0, g: 2.4913447, b: 2.4783008, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
-    - _IceTilling: {r: 1, g: 3, b: 0, a: 0}
+    - _IceTilling: {r: 1.5, g: 3, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &7292715156624937198
