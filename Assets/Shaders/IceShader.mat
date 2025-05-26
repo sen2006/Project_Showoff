@@ -42,20 +42,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FresnelPower: 2
     - _Metalic: 0
-    - _Normals: 0.9
+    - _Normals: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionAmount: -0.02
     - _Smoothness: 0
     m_Colors:
-    - _Color: {r: 0, g: 2.4913447, b: 2.4783008, a: 1}
-    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
-    - _IceTilling: {r: 1.5, g: 3, b: 0, a: 0}
+    - _Color: {r: 0.39975122, g: 2.2904663, b: 1.9366482, a: 1}
+    - _IceTilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &7292715156624937198
+--- !u!114 &7642559936355610091
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

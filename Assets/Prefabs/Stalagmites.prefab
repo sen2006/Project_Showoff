@@ -50,19 +50,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: c43dcacdddd3b4c43a30cb8544088540, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: c43dcacdddd3b4c43a30cb8544088540, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8c872d7cb1267ec448f00cf5ef046afb, type: 2}
+      objectReference: {fileID: 2100000, guid: 0129be59c6f280e4ca8bf4f0f1cfadf1, type: 2}
     - target: {fileID: -7511558181221131132, guid: c43dcacdddd3b4c43a30cb8544088540, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: 0129be59c6f280e4ca8bf4f0f1cfadf1, type: 2}
+      objectReference: {fileID: 2100000, guid: 8c872d7cb1267ec448f00cf5ef046afb, type: 2}
     - target: {fileID: 919132149155446097, guid: c43dcacdddd3b4c43a30cb8544088540, type: 3}
       propertyPath: m_Name
       value: Stalagmites
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c43dcacdddd3b4c43a30cb8544088540, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
