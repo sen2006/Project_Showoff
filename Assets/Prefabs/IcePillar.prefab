@@ -9,8 +9,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4331
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4331
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4331
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -26,7 +38,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
       propertyPath: m_LocalRotation.y
@@ -50,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -59,7 +71,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8c872d7cb1267ec448f00cf5ef046afb, type: 2}
+      objectReference: {fileID: 2100000, guid: 88491e9ebb133c84394d88b24dc1f62a, type: 2}
     - target: {fileID: 919132149155446097, guid: 1597876c2ea4a7a47973ca57ac9cc1bb, type: 3}
       propertyPath: m_Name
       value: IcePillar

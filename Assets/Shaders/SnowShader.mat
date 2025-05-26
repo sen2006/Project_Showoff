@@ -59,12 +59,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _GlitterOffset: 0.5
+    - _GlitterOffset: 0.4
     - _NoiseRotationSpeed: 10
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Smoothness: 0.4
     m_Colors:
-    - _GlitterColor: {r: 0.4575472, g: 0.9378273, b: 1, a: 1}
+    - _GlitterColor: {r: 0.023529412, g: 0.023529412, b: 0.023529412, a: 1}
     - _NoiseScale: {r: 10, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
