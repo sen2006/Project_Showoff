@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FInal/Leaderboard.unity
     guid: e8ae6bbfc15bb174e92f004f58136e6f
+  - enabled: 1
+    path: Assets/Scenes/FInal/MonsterDex.unity
+    guid: 24ec4b57a45d18949895a8cd0d65be77
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
