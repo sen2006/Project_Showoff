@@ -11,6 +11,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] float horizontalMouseSensitivity = 1;
     [SerializeField] float verticalMouseSensitivity = 1;
     [SerializeField, Range(0, 180)] int maxYaw = 180;
+    [SerializeField] bool useMaxYaw = true;
     [SerializeField, Range(0, 90)] int maxPitchUp = 80;
     [SerializeField, Range(0, 90)] int maxPitchDown = 80;
     [SerializeField, ReadOnly] float yaw = 0;
@@ -32,7 +33,7 @@ public class PlayerControl : MonoBehaviour
     {
         yaw += Input.GetAxis("Mouse X") * horizontalMouseSensitivity * Time.deltaTime * 1000;
         pitch += Input.GetAxis("Mouse Y") * verticalMouseSensitivity * Time.deltaTime * 1000;
-        yaw = Mathf.Clamp(yaw, -maxYaw, maxYaw);
+        if (useMaxYaw) yaw = Mathf.Clamp(yaw, -maxYaw, maxYaw);
         pitch = Mathf.Clamp(pitch, -maxPitchDown, maxPitchUp);
     }
 
