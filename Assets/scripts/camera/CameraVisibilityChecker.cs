@@ -13,7 +13,6 @@ public class CameraVisibilityChecker : MonoBehaviour
     public void Awake()
     {
         cam = GetComponent<Camera>();
-        //Debug.Log(cam);
     }
 
     private void Update()
@@ -49,4 +48,6 @@ public class CameraVisibilityChecker : MonoBehaviour
         }
         visiblePOICount = visiblePOIs.Count;
     }
+
+    public int getScore() { return achievedScore; }
 }
