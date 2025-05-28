@@ -1,8 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerInfo
 {
@@ -32,23 +30,33 @@ public class LeaderboardScores : MonoBehaviour
 
     public void SubmitButton()
     {
-        PlayerInfo stats = new PlayerInfo(userName.text, int.Parse(score.text));
+        if (userName.text.Length == 0 || score.text.Length == 0) return;
 
-        highscores.Add(stats);
+        AddStats(userName.text, int.Parse(score.text));
 
         userName.text = "";
         score.text = "";
-
-        SortStats();
     }
 
-    public void ClearScoresButton()
+    public void AddStats(string pName, int pScore)
+    {
+        if (pName.Length == 0 || pScore <= 0) return;
+
+        PlayerInfo stats = new PlayerInfo(pName, pScore);
+
+        highscores.Add(stats);
+
+        SortScores();
+    }
+
+    public void ClearScores()
     {
         PlayerPrefs.DeleteKey("LeaderBoards");
+        highscores.Clear();
         display.text = string.Empty;
     }
 
-    void SortStats()
+    void SortScores()
     {
         for (int i = highscores.Count - 1; i > 0; i--)
         {
@@ -70,8 +78,12 @@ public class LeaderboardScores : MonoBehaviour
 
         for (int i = 0; i < highscores.Count; i++)
         {
+            if (stats.Length > 0)
+            {
+                stats += ",";
+            }
             stats += highscores[i].playerName + ",";
-            stats += highscores[i].playerScore + ",";
+            stats += highscores[i].playerScore;
         }
 
         PlayerPrefs.SetString("LeaderBoards", stats);
@@ -95,13 +107,16 @@ public class LeaderboardScores : MonoBehaviour
 
         string[] stats2 = stats.Split(',');
 
-        for (int i = 0; i < stats2.Length; i += 2)
+        if (stats2.Length >= 2)
         {
-            PlayerInfo loadedInfo = new PlayerInfo(stats2[i], int.Parse(stats2[i + 1]));
+            for (int i = 0; i < stats2.Length; i += 2)
+            {
+                PlayerInfo loadedInfo = new PlayerInfo(stats2[i], int.Parse(stats2[i + 1]));
 
-            highscores.Add(loadedInfo);
+                highscores.Add(loadedInfo);
 
-            UpdateLeaderBoardDisplay();
+                UpdateLeaderBoardDisplay();
+            }
         }
     }
 }
