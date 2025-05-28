@@ -6,7 +6,7 @@ public class CameraVisibilityChecker : MonoBehaviour
 {
     Camera cam;
 
-    [Header("Debud Data")]
+    [Header("Debug Data")]
     [SerializeField, ReadOnly] int visiblePOICount;
     [SerializeField, ReadOnly] int achievedScore;
 

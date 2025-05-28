@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GaleryLoader : MonoBehaviour
+public static class GaleryLoader
 {
-    List<Texture2D> imageBuffer = new List<Texture2D>();
-    [SerializeField] string filePath = "screenshots";
+    static List<Texture2D> imageBuffer = new List<Texture2D>();
+    static string filePath = "screenshots";
 
-    public void Load()
+    public static void Load()
     {
         imageBuffer.Clear();
         Debug.Log("reading files in: " + Application.persistentDataPath + "/" + filePath);
@@ -20,7 +20,7 @@ public class GaleryLoader : MonoBehaviour
         }
     }
 
-    public Texture2D getImage(int id)
+    public static Texture2D getImage(int id)
     {
         if (id>=imageBuffer.Count || id<0) return null;
         return imageBuffer[id];
