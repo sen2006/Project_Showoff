@@ -1,8 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerInfo
 {
