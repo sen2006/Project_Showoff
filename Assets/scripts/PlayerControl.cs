@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour
-{
+public class PlayerControl : MonoBehaviour {
     [Header("Objects")]
     [SerializeField] GameObject cart;
     [SerializeField] GameObject cam;
@@ -23,8 +22,7 @@ public class PlayerControl : MonoBehaviour
     private Camera _camera;
     CameraVisibilityChecker _visibilityChecker;
 
-    private void Start()
-    {
+    private void Start() {
         _camera = cam.GetComponent<Camera>();
         _visibilityChecker = cam.GetComponent<CameraVisibilityChecker>();
         Debug.Assert(cart != null, "Attach the cart to the player script");
@@ -34,40 +32,34 @@ public class PlayerControl : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    void Update()
-    {
+    void Update() {
         handleInput();
         playerRotation();
     }
 
-    private void handleInput()
-    {
-        yaw += Input.GetAxis("Mouse X") * horizontalMouseSensitivity * Time.deltaTime * 1000;
-        pitch += Input.GetAxis("Mouse Y") * verticalMouseSensitivity * Time.deltaTime * 1000;
+    private void handleInput() {
+        yaw += Input.GetAxis("Mouse X") * OptionsMenu.sensitivity * horizontalMouseSensitivity * Time.deltaTime * 1000;
+        pitch += Input.GetAxis("Mouse Y") * OptionsMenu.sensitivity * verticalMouseSensitivity * Time.deltaTime * 1000;
         if (useMaxYaw) yaw = Mathf.Clamp(yaw, -maxYaw, maxYaw);
         pitch = Mathf.Clamp(pitch, -maxPitchDown, maxPitchUp);
         if (Input.GetKeyDown(takePhotoKey)) takePhoto();
     }
 
-    private void playerRotation()
-    {
+    private void playerRotation() {
         float cartYaw = cart.transform.rotation.eulerAngles.y;
         transform.rotation = Quaternion.Euler(0, cartYaw + yaw, 0);
         cam.transform.localRotation = Quaternion.Euler(-pitch, 0, 0);
     }
 
-    private void takePhoto()
-    {
-
-        string folderPath = Application.persistentDataPath+"/"+screenshotPath;
+    private void takePhoto() {
+        string folderPath = Application.persistentDataPath + "/" + screenshotPath;
 
         if (!System.IO.Directory.Exists(folderPath))
             System.IO.Directory.CreateDirectory(folderPath);
 
-        var screenshotName =System.DateTime.Now.ToString("yyyyMMdd-HHmmss_") + _visibilityChecker.getScore() +".png";
+        var screenshotName = System.DateTime.Now.ToString("yyyyMMdd-HHmmss_") + _visibilityChecker.getScore() + ".png";
         ScreenCapture.CaptureScreenshot(System.IO.Path.Combine(folderPath, screenshotName), 2);
         Debug.Log(folderPath + screenshotName);
-
     }
 
 }

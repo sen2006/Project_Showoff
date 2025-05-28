@@ -46,17 +46,17 @@ public class LeaderboardScores : MonoBehaviour
 
         highscores.Add(stats);
 
-        SortStats();
+        SortScores();
     }
 
-    public void ClearScoresButton()
+    public void ClearScores()
     {
         PlayerPrefs.DeleteKey("LeaderBoards");
         highscores.Clear();
         display.text = string.Empty;
     }
 
-    void SortStats()
+    void SortScores()
     {
         for (int i = highscores.Count - 1; i > 0; i--)
         {
