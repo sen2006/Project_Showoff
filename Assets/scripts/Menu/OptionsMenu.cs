@@ -9,6 +9,7 @@ public class OptionsMenu : MonoBehaviour
     private AudioMixer audioMixer;
     [SerializeField]
     private Slider mainVolumeSlider;
+    public static float sensitivity {  get; private set; }
 
     private void Start()
     {
@@ -19,5 +20,9 @@ public class OptionsMenu : MonoBehaviour
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("MasterVolume", volume);
+    }
+
+    public void SetSensitivity(float sens) {
+        sensitivity = sens;
     }
 }
