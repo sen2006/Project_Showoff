@@ -14,7 +14,7 @@ public static class GaleryLoader {
         string[] files = System.IO.Directory.GetFiles(Application.persistentDataPath + "/" + filePath);
         foreach (string filename in files) {
             byte[] bytes = new byte[1024];
-            bytes = System.IO.File.ReadAllBytes(filePath);
+            bytes = System.IO.File.ReadAllBytes(filename);
             Texture2D texture = new Texture2D(2, 2);
             texture.LoadImage(bytes);
             imageBuffer.Add(texture);
@@ -22,7 +22,7 @@ public static class GaleryLoader {
     }
 
     /// <summary>
-    /// gets an images from the loaded images at the given ID
+    /// gets an image from the loaded images at the given ID
     /// have to call .Load() first
     /// </summary>
     public static Texture2D getImage(int id) {
