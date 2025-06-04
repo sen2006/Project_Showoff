@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-241385807449474710
+--- !u!114 &-4600166101546540297
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,19 +37,35 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Diffuse:
-        m_Texture: {fileID: 2800000, guid: 4167bf33a3677504b86a0b51557a6ed0, type: 3}
+    - _SampleTexture2D_2ba3c161b6ab4b4381d3ce1b2bf5d647_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6d60aa789e1597043bd97d5dad65fe1b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Mask:
-        m_Texture: {fileID: 2800000, guid: d551067afd37c5f4ba886307b3a4817f, type: 3}
+    - _SampleTexture2D_36db21a764e04fe6b2153cf263f49ade_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 03a8e355f81a2f64ba850de4f4994e6c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Normal:
+    - _SampleTexture2D_7da16f3605354c55be77f0219de7cfdd_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 993a5acfa0a898247a8328cc3bea7c2f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_085201f4f3de4e7782c9e65e5e9279ce_Out_0_Texture2D:
+    - _SampleTexture2D_c7546943e8f1487e9cd4284f2b6eb6a2_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4167bf33a3677504b86a0b51557a6ed0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ca4a1bdcb04045b89bcaac494194ada1_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d551067afd37c5f4ba886307b3a4817f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e7a24a1531cd4a91b4d56b59e0786c08_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d6ef26ad158cfc348ad267c97e060441, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SimpleParallax_33f8424a4b4f4732838f210711e651f7_Texture2D_3120686133_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 512c1dc111faff04c82e495f243c3281, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_c8d9629503664254974d3d4fd829bdef_Out_0_Texture2D:
         m_Texture: {fileID: 2800000, guid: d551067afd37c5f4ba886307b3a4817f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -67,7 +83,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ParrallaxOffset: -0.05
+    - _ParallaxOffset: -0.003
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
