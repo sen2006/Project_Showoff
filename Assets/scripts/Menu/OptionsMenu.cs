@@ -11,7 +11,7 @@ public class OptionsMenu : MonoBehaviour
     private Slider mainVolumeSlider;
     [SerializeField]
     private Slider sensSlider;
-    public static float sensitivity {  get; private set; }
+    public static float sensitivity { get; private set; } = .5f;
 
     private void Start()
     {
