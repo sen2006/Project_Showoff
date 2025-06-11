@@ -1,8 +1,10 @@
 using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public static class GaleryLoader {
-    private static List<Texture2D> imageBuffer = new List<Texture2D>();
+    private static List<TextureDetails> imageBuffer = new List<TextureDetails>();
     private static string filePath = "screenshots";
 
     /// <summary>
@@ -17,7 +19,15 @@ public static class GaleryLoader {
             bytes = System.IO.File.ReadAllBytes(filename);
             Texture2D texture = new Texture2D(2, 2);
             texture.LoadImage(bytes);
-            imageBuffer.Add(texture);
+            TextureDetails textureDetails;
+            try {
+                textureDetails = new(texture, int.Parse(filename.Split('_').Last().Split('.').First()));
+            } catch {
+                textureDetails = new(texture, 0);
+            }
+            Debug.Log("read Image: " + filename+", with score: "+textureDetails.getScore());
+            imageBuffer.Add(textureDetails);
+        
         }
     }
 
@@ -27,14 +37,23 @@ public static class GaleryLoader {
     /// </summary>
     public static Texture2D getImage(int id) {
         if (id >= imageBuffer.Count || id < 0) return null;
-        return imageBuffer[id];
+        return imageBuffer[id].getTexture();
+    }
+
+    /// <summary>
+    /// gets an image from the loaded images at the given ID
+    /// have to call .Load() first
+    /// </summary>
+    public static int getScore(int id) {
+        if (id >= imageBuffer.Count || id < 0) return 0;
+        return imageBuffer[id].getScore();
     }
 
     /// <summary>
     /// gets an array of all loaded images
     /// have to call .Load() first
     /// </summary>
-    public static Texture2D[] getImages() {
+    public static TextureDetails[] getImages() {
         return imageBuffer.ToArray();
     }
 
@@ -43,7 +62,7 @@ public static class GaleryLoader {
     /// then gets an array of all loaded images
     /// DOES NOT have to call .Load() first
     /// </summary>
-    public static Texture2D[] loadAndGetImages() {
+    public static TextureDetails[] loadAndGetImages() {
         Load();
         return getImages();
     }
@@ -65,4 +84,23 @@ public static class GaleryLoader {
         Load();
         return imageBuffer.Count;
     }
+
+    public class TextureDetails {
+        readonly Texture2D texture;
+        readonly int score;
+
+        public TextureDetails(Texture2D texture, int score) {
+            this.texture = texture;
+            this.score = score;
+        }
+
+        public Texture2D getTexture() {
+            return texture;
+        }
+        public int getScore() {
+            return score;
+        }
+    }
 }
+
+
