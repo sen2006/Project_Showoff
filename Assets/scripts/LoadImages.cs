@@ -17,9 +17,9 @@ public class LoadImages : MonoBehaviour
 
     void Start()
     {
-        GaleryLoader.Load();
+        GalleryLoader.Load();
 
-        Debug.Log("amount of images: " + GaleryLoader.getImages().Length);
+        Debug.Log("amount of images: " + GalleryLoader.getImages().Length);
 
         UpdatePage();
 
@@ -42,7 +42,7 @@ public class LoadImages : MonoBehaviour
 
     public void NextPage()
     {
-        pageNumber = math.min(pageNumber + 1, GaleryLoader.loadedImageCount() / images.Count);
+        pageNumber = math.min(pageNumber + 1, GalleryLoader.loadedImageCount() / images.Count);
         UpdatePage();
     }
 
@@ -52,7 +52,7 @@ public class LoadImages : MonoBehaviour
 
         foreach (Image image in images)
         {
-            Texture2D texture = GaleryLoader.getImage(i);
+            Texture2D texture = GalleryLoader.getImage(i);
             if (texture != null)
             {
                 image.gameObject.SetActive(true);

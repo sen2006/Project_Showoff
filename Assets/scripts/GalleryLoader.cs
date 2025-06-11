@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public static class GaleryLoader {
+public static class GalleryLoader {
     private static List<TextureDetails> imageBuffer = new List<TextureDetails>();
     private static string filePath = "screenshots";
 
