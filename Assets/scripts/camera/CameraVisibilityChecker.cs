@@ -23,6 +23,9 @@ public class CameraVisibilityChecker : MonoBehaviour {
             UpdateScore();
     }
 
+    /// <summary>
+    /// updates the visible score
+    /// </summary>
     private void UpdateScore() {
         List<PhotoPOI> visiblePOIs = getVisiblePOIS();
 
