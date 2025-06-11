@@ -51,4 +51,9 @@ public static class GaleryLoader {
     public static int loadedImageCount() {
         return imageBuffer.Count;
     }
+
+    public static int loadAndImageCount() {
+        Load();
+        return imageBuffer.Count;
+    }
 }
