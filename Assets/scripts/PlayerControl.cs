@@ -41,8 +41,8 @@ public class PlayerControl : MonoBehaviour {
     /// reads and checks input controlls
     /// </summary>
     private void handleInput() {
-        yaw += Input.GetAxis("Mouse X") * OptionsMenu.sensitivity * horizontalMouseSensitivity * Time.deltaTime * 1000;
-        pitch += Input.GetAxis("Mouse Y") * OptionsMenu.sensitivity * verticalMouseSensitivity * Time.deltaTime * 1000;
+        yaw += Input.GetAxis("Mouse X") * OptionsMenu.sensitivity * horizontalMouseSensitivity;
+        pitch += Input.GetAxis("Mouse Y") * OptionsMenu.sensitivity * verticalMouseSensitivity;
         if (useMaxYaw) yaw = Mathf.Clamp(yaw, -maxYaw, maxYaw);
         pitch = Mathf.Clamp(pitch, -maxPitchDown, maxPitchUp);
         if (Input.GetKeyDown(takePhotoKey)) takePhoto();

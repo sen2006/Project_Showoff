@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public static class GaleryLoader {
-    static List<Texture2D> imageBuffer = new List<Texture2D>();
-    static string filePath = "screenshots";
+    private static List<Texture2D> imageBuffer = new List<Texture2D>();
+    private static string filePath = "screenshots";
 
     /// <summary>
     /// loads all images from the files
