@@ -37,6 +37,9 @@ public class PlayerControl : MonoBehaviour {
         playerRotation();
     }
 
+    /// <summary>
+    /// reads and checks input controlls
+    /// </summary>
     private void handleInput() {
         yaw += Input.GetAxis("Mouse X") * OptionsMenu.sensitivity * horizontalMouseSensitivity * Time.deltaTime * 1000;
         pitch += Input.GetAxis("Mouse Y") * OptionsMenu.sensitivity * verticalMouseSensitivity * Time.deltaTime * 1000;
@@ -45,12 +48,18 @@ public class PlayerControl : MonoBehaviour {
         if (Input.GetKeyDown(takePhotoKey)) takePhoto();
     }
 
+    /// <summary>
+    /// camera rotation
+    /// </summary>
     private void playerRotation() {
         float cartYaw = cart.transform.rotation.eulerAngles.y;
         transform.rotation = Quaternion.Euler(0, cartYaw + yaw, 0);
         cam.transform.localRotation = Quaternion.Euler(-pitch, 0, 0);
     }
 
+    /// <summary>
+    /// takes a screenshot and saves it
+    /// </summary>
     private void takePhoto() {
         string folderPath = Application.persistentDataPath + "/" + screenshotPath;
 
