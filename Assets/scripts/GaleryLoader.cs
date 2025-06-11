@@ -48,10 +48,19 @@ public static class GaleryLoader {
         return getImages();
     }
 
+    /// <summary>
+    /// gets the count of all loaded images
+    /// have to call .Load() first
+    /// </summary>
     public static int loadedImageCount() {
         return imageBuffer.Count;
     }
 
+    /// <summary>
+    /// loads all images from the files
+    /// then gets the count of all loaded images
+    /// DOES NOT have to call .Load() first
+    /// </summary>
     public static int loadAndImageCount() {
         Load();
         return imageBuffer.Count;
