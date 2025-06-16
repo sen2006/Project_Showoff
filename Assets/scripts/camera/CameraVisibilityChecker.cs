@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 
 [RequireComponent(typeof(Camera))]
 public class CameraVisibilityChecker : MonoBehaviour {

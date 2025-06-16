@@ -1,9 +1,10 @@
 using UnityEngine;
+using static UnityEngine.ScreenCapture;
 
 public class PlayerControl : MonoBehaviour {
     [Header("Objects")]
     [SerializeField] GameObject cart;
-    [SerializeField] GameObject cam;
+    [SerializeField] GameObject playerCamera;
 
     [Header("Camera Settings")]
     [SerializeField] float horizontalMouseSensitivity = 1;
@@ -23,10 +24,10 @@ public class PlayerControl : MonoBehaviour {
     CameraVisibilityChecker _visibilityChecker;
 
     private void Start() {
-        _camera = cam.GetComponent<Camera>();
-        _visibilityChecker = cam.GetComponent<CameraVisibilityChecker>();
+        _camera = playerCamera.GetComponent<Camera>();
+        _visibilityChecker = playerCamera.GetComponent<CameraVisibilityChecker>();
         Debug.Assert(cart != null, "Attach the cart to the player script");
-        Debug.Assert(cam != null, "Attach the camera to the player script");
+        Debug.Assert(playerCamera != null, "Attach the camera to the player script");
         Debug.Assert(_visibilityChecker != null, "The camera object has no cameraVisibilityChecker assigned");
         Debug.Assert(_camera != null, "The camera object has no camera assigned");
         Cursor.lockState = CursorLockMode.Locked;
@@ -54,21 +55,45 @@ public class PlayerControl : MonoBehaviour {
     private void playerRotation() {
         float cartYaw = cart.transform.rotation.eulerAngles.y;
         transform.rotation = Quaternion.Euler(0, cartYaw + yaw, 0);
-        cam.transform.localRotation = Quaternion.Euler(-pitch, 0, 0);
+        playerCamera.transform.localRotation = Quaternion.Euler(-pitch, 0, 0);
     }
 
     /// <summary>
     /// takes a screenshot and saves it
     /// </summary>
-    private void takePhoto() {
-        string folderPath = Application.persistentDataPath + "/" + screenshotPath;
+    private void takePhoto()
+    {
+        RenderTexture originalRT = RenderTexture.active;
 
+        // Set up RenderTexture
+        RenderTexture photoRT = new RenderTexture(Screen.width, Screen.height, 24);
+        _camera.targetTexture = photoRT;
+
+        // Render manually to display the new texture (else it becomes black)
+        _camera.Render();
+
+        // Activate the RenderTexture and read the pixels
+        RenderTexture.active = photoRT;
+        Texture2D photo = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+        photo.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+        photo.Apply();
+
+        // Save to file
+        string folderPath = Application.persistentDataPath + "/" + screenshotPath;
         if (!System.IO.Directory.Exists(folderPath))
             System.IO.Directory.CreateDirectory(folderPath);
+        string screenshotName = System.DateTime.Now.ToString("yyyyMMdd-HHmmss_") + _visibilityChecker.getScore() + ".png";
+        byte[] bytes = photo.EncodeToPNG();
+        System.IO.File.WriteAllBytes(System.IO.Path.Combine(folderPath, screenshotName), bytes);
+        Debug.Log("Screenshot taken: " + System.IO.Path.Combine(folderPath, screenshotName));
 
-        var screenshotName = System.DateTime.Now.ToString("yyyyMMdd-HHmmss_") + _visibilityChecker.getScore() + ".png";
-        ScreenCapture.CaptureScreenshot(System.IO.Path.Combine(folderPath, screenshotName), 2);
-        Debug.Log(folderPath + screenshotName);
+        // put the original RenderTexture back
+        RenderTexture.active = originalRT;
+
+        // Clean up (GPU managed stuff has to be destroyed)
+        _camera.targetTexture = null;
+        Destroy(photoRT);
+        Destroy(photo);
     }
 
 }
