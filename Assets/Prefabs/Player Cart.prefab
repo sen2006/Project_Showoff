@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 6241068997636432490}
   - component: {fileID: 1972739005336847544}
   - component: {fileID: 7845140401412749218}
+  - component: {fileID: 3072862655204409983}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -235,6 +236,21 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &3072862655204409983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4075675691956090268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd2b203db04d5a4c84c299c35914b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateScoreOnUpdateLoop: 0
+  visiblePOICount: 0
+  achievedScore: 0
 --- !u!1 &7300502845395471640
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,8 +297,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cart: {fileID: 1402318262906953347}
-  cam: {fileID: 4075675691956090268}
+  playerCamera: {fileID: 4075675691956090268}
   horizontalMouseSensitivity: 1
   verticalMouseSensitivity: 1
-  inputYaw: 0
-  inputPitch: 0
+  maxYaw: 180
+  useMaxYaw: 0
+  maxPitchUp: 80
+  maxPitchDown: 80
+  yaw: 0
+  pitch: 0
+  takePhotoKey: 32
+  screenshotPath: screenshots/
