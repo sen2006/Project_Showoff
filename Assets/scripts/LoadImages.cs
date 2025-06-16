@@ -17,6 +17,7 @@ public class LoadImages : MonoBehaviour
 
     [Header("Page Number")]
     [SerializeField, ReadOnly] private int pageNumber = 0;
+    [SerializeField] private TextMeshProUGUI pageNumberText;
 
     void Start()
     {
@@ -54,6 +55,8 @@ public class LoadImages : MonoBehaviour
     private void UpdatePage()
     {
         int i = pageNumber * images.Count;
+
+        pageNumberText.text = (pageNumber + 1).ToString();
 
         //foreach (Image image in images)
         //{
