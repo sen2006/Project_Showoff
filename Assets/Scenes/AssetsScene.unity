@@ -550,10 +550,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stalagmites
       objectReference: {fileID: 0}
-    - target: {fileID: 8293156419115387275, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 0129be59c6f280e4ca8bf4f0f1cfadf1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
