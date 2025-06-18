@@ -5,6 +5,7 @@ public class PlayerControl : MonoBehaviour {
     [Header("Objects")]
     [SerializeField] GameObject cart;
     [SerializeField] GameObject playerCamera;
+    [SerializeField] ShutterController shutterController;
 
     [Header("Camera Settings")]
     [SerializeField] float horizontalMouseSensitivity = 1;
@@ -17,7 +18,7 @@ public class PlayerControl : MonoBehaviour {
     [SerializeField, ReadOnly] float pitch = 0;
 
     [Header("Photo Settings")]
-    [SerializeField] KeyCode takePhotoKey;
+    [SerializeField] string takePhotoKey = "TakePhoto";
     [SerializeField] string screenshotPath = "screenshots/";
 
     private Camera _camera;
@@ -46,7 +47,7 @@ public class PlayerControl : MonoBehaviour {
         pitch += Input.GetAxis("Mouse Y") * OptionsMenu.sensitivity * verticalMouseSensitivity;
         if (useMaxYaw) yaw = Mathf.Clamp(yaw, -maxYaw, maxYaw);
         pitch = Mathf.Clamp(pitch, -maxPitchDown, maxPitchUp);
-        if (Input.GetKeyDown(takePhotoKey)) takePhoto();
+        if (Input.GetButtonDown(takePhotoKey)) takePhoto();
     }
 
     /// <summary>
@@ -63,6 +64,7 @@ public class PlayerControl : MonoBehaviour {
     /// </summary>
     private void takePhoto()
     {
+        if (shutterController != null) { shutterController.trigger(); }
         RenderTexture originalRT = RenderTexture.active;
 
         // Set up RenderTexture
