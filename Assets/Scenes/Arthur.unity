@@ -150,11 +150,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   biomeTracks:
   - biome: 0
-    musicClip: {fileID: 8300000, guid: 21391e1034d629347b08872df3273af1, type: 3}
+    musicClip: {fileID: 8300000, guid: 4866303d4a1bed546bb061791f927ff3, type: 3}
   - biome: 1
-    musicClip: {fileID: 8300000, guid: cfba021410fd245489c4651fcb5497d0, type: 3}
+    musicClip: {fileID: 8300000, guid: 0bd7ff90dd3102249b8790abb8ce4de8, type: 3}
   - biome: 2
-    musicClip: {fileID: 8300000, guid: fccc9a734d4aa10418007fd12b1cf9e2, type: 3}
+    musicClip: {fileID: 8300000, guid: c9045afc35178cb43af58cb4aa260f71, type: 3}
   fadeDuration: 1.5
 --- !u!4 &767169496
 Transform:
