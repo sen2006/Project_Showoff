@@ -8,7 +8,6 @@ public class BiomeMusicManager : MonoBehaviour
         Ice,
         Lava,
         Space
-        // Add more biomes here
     }
 
     [System.Serializable]
@@ -39,14 +38,27 @@ public class BiomeMusicManager : MonoBehaviour
         audioSourceB.playOnAwake = false;
 
         currentSource = audioSourceA;
+
+        // Load and play Ice biome music immediately
+        AudioClip iceClip = GetClipForBiome(Biome.Ice);
+        if (iceClip != null)
+        {
+            audioSourceA.clip = iceClip;
+            audioSourceA.volume = 1f;
+            audioSourceA.Play();
+            currentBiome = Biome.Ice;
+            currentBiomeIndex = 0;
+            Debug.Log("Playing Ice biome music on awake.");
+        }
+        else
+        {
+            Debug.LogWarning("No clip found for Ice biome!");
+        }
     }
 
     void Start()
     {
-        // Immediately play Ice biome
-        currentBiome = Biome.Ice;
         currentBiomeIndex = 0;
-        TransitionToBiome(currentBiome);
     }
 
     void Update()
