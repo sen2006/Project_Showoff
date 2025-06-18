@@ -7,10 +7,6 @@ using TMPro;
 
 public class LoadImages : MonoBehaviour
 {
-    [Header("Image Size")]
-    [SerializeField] float maxWidth = 192;
-    [SerializeField] float maxHeight = 108;
-
     [Header("Displays")]
     [SerializeField] private List<Image> images;
     [SerializeField] private List<TMP_Text> scoreText;
@@ -28,15 +24,6 @@ public class LoadImages : MonoBehaviour
         Debug.Log("amount of images: " + GalleryLoader.getImages().Length);
 
         UpdatePage();
-
-        //Transform imageTransform = imageDisplay.GetComponent<Transform>();
-        //Image image = imageTransform.GetComponent<Image>();
-        //image.preserveAspect = true;
-
-
-
-        //imageTransform.localScale = new Vector2(Mathf.Clamp(texture.width, 1, maxWidth), Mathf.Clamp(texture.height, 1, maxHeight));
-
     }
 
     public void PreviousPage()
