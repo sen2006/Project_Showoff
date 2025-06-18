@@ -1,5 +1,7 @@
+using System.Collections;
+using System.Threading;
 using UnityEngine;
-using static UnityEngine.ScreenCapture;
+using UnityEngine.InputSystem;
 
 public class PlayerControl : MonoBehaviour {
     [Header("Objects")]
@@ -18,11 +20,16 @@ public class PlayerControl : MonoBehaviour {
     [SerializeField, ReadOnly] float pitch = 0;
 
     [Header("Photo Settings")]
-    [SerializeField] string takePhotoKey = "TakePhoto";
     [SerializeField] string screenshotPath = "screenshots/";
+    [SerializeField] int screenshotCooldownMS = 1000;
 
     private Camera _camera;
     CameraVisibilityChecker _visibilityChecker;
+
+    InputAction photoAction;
+    InputAction lookAction;
+
+    bool photoLocked = false;
 
     private void Start() {
         _camera = playerCamera.GetComponent<Camera>();
@@ -32,6 +39,8 @@ public class PlayerControl : MonoBehaviour {
         Debug.Assert(_visibilityChecker != null, "The camera object has no cameraVisibilityChecker assigned");
         Debug.Assert(_camera != null, "The camera object has no camera assigned");
         Cursor.lockState = CursorLockMode.Locked;
+        photoAction = InputSystem.actions.FindAction("Jump");
+        lookAction = InputSystem.actions.FindAction("Look");
     }
 
     void Update() {
@@ -43,11 +52,13 @@ public class PlayerControl : MonoBehaviour {
     /// reads and checks input controlls
     /// </summary>
     private void handleInput() {
-        yaw += Input.GetAxis("Mouse X") * OptionsMenu.sensitivity * horizontalMouseSensitivity;
-        pitch += Input.GetAxis("Mouse Y") * OptionsMenu.sensitivity * verticalMouseSensitivity;
+        Vector2 lookInput = lookAction.ReadValue<Vector2>();
+        yaw += lookInput.x * OptionsMenu.sensitivity * horizontalMouseSensitivity;
+        pitch += lookInput.y * OptionsMenu.sensitivity * verticalMouseSensitivity;
         if (useMaxYaw) yaw = Mathf.Clamp(yaw, -maxYaw, maxYaw);
         pitch = Mathf.Clamp(pitch, -maxPitchDown, maxPitchUp);
-        if (Input.GetButtonDown(takePhotoKey)) takePhoto();
+        //if (Input.GetButtonDown(takePhotoKey)) takePhoto();
+        if (photoAction.IsPressed() && !photoLocked) takePhoto();
     }
 
     /// <summary>
@@ -96,6 +107,12 @@ public class PlayerControl : MonoBehaviour {
         _camera.targetTexture = null;
         Destroy(photoRT);
         Destroy(photo);
+        StartCoroutine(PhotoCooldown(screenshotCooldownMS));
     }
 
+    private IEnumerator PhotoCooldown(int ms) {
+        photoLocked = true;
+        yield return new WaitForSeconds(ms/1000);
+        photoLocked = false;
+    }
 }
