@@ -63,7 +63,7 @@ public class BiomeMusicManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             currentBiomeIndex = (currentBiomeIndex + 1) % System.Enum.GetNames(typeof(Biome)).Length;
             Biome nextBiome = (Biome)currentBiomeIndex;
