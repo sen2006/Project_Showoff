@@ -23,7 +23,7 @@ public class LoadImages : MonoBehaviour
     {
         GalleryLoader.Load();
 
-        if (images.Count != scoreText.Count) Debug.Log("Image display amount does not match with score display amount");
+        Debug.Assert(images.Count == scoreText.Count, "Image display amount does not match with score display amount");
 
         Debug.Log("amount of images: " + GalleryLoader.getImages().Length);
 
@@ -57,27 +57,6 @@ public class LoadImages : MonoBehaviour
         int i = pageNumber * images.Count;
 
         pageNumberText.text = (pageNumber + 1).ToString();
-
-        //foreach (Image image in images)
-        //{
-        //    Texture2D texture = GalleryLoader.getImage(i);
-        //    if (texture != null)
-        //    {
-        //        image.gameObject.SetActive(true);
-        //        image.preserveAspect = true;
-        //        image.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
-
-        //        if (i >= scoreText.Count)
-        //        {
-
-        //        }
-
-
-        //    }
-        //    else image.gameObject.SetActive(false);
-        //    i++;
-        //}
-
         for (int j = 0; j < images.Count; j++)
         {
             Texture2D texture = GalleryLoader.getImage(i);
@@ -87,17 +66,12 @@ public class LoadImages : MonoBehaviour
                 images[j].preserveAspect = true;
                 images[j].sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
 
-                if (j >= scoreText.Count) continue;
-
                 scoreText[j].gameObject.SetActive(true);
                 scoreText[j].text = "SCORE: " + GalleryLoader.getScore(i);
             }
             else
             {
                 images[j].gameObject.SetActive(false);
-
-                if (j >= scoreText.Count) continue;
-
                 scoreText[j].gameObject.SetActive(false);
             }
             i++;
