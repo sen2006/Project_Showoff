@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
 
-public class HideMonsterInformation : MonoBehaviour
+public class MonsterDex : MonoBehaviour
 {
-    public void ResetMonsterView()
+    public void HideAllChilds()
     {
         foreach (Transform child in transform)
         {
