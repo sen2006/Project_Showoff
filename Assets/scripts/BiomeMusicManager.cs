@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class BiomeMusicManager : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class BiomeMusicManager : MonoBehaviour
 
     public BiomeMusic[] biomeTracks;
     public float fadeDuration = 1.5f;
+    public AudioMixerGroup musicMixerGroup;
 
     private AudioSource audioSourceA;
     private AudioSource audioSourceB;
@@ -30,6 +32,9 @@ public class BiomeMusicManager : MonoBehaviour
     {
         audioSourceA = gameObject.AddComponent<AudioSource>();
         audioSourceB = gameObject.AddComponent<AudioSource>();
+
+        audioSourceA.outputAudioMixerGroup = musicMixerGroup;
+        audioSourceB.outputAudioMixerGroup = musicMixerGroup;
 
         audioSourceA.loop = true;
         audioSourceB.loop = true;
