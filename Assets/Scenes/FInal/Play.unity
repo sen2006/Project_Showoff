@@ -6025,11 +6025,11 @@ PrefabInstance:
       objectReference: {fileID: 621104622}
     - target: {fileID: 5549282133750884422, guid: ef57b0f3a1d87ef47a2dbcd1228ddeaf, type: 3}
       propertyPath: verticalMouseSensitivity
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5549282133750884422, guid: ef57b0f3a1d87ef47a2dbcd1228ddeaf, type: 3}
       propertyPath: horizontalMouseSensitivity
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7608426495923760989, guid: ef57b0f3a1d87ef47a2dbcd1228ddeaf, type: 3}
       propertyPath: m_LocalPosition.x
