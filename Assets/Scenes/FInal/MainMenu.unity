@@ -924,7 +924,7 @@ AudioSource:
   m_GameObject: {fileID: 341810213}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -7032147493912180723, guid: 4b744ad649626584894cc2cabb7ea9ae, type: 2}
   m_audioClip: {fileID: 8300000, guid: 21391e1034d629347b08872df3273af1, type: 3}
   m_Resource: {fileID: 8300000, guid: 21391e1034d629347b08872df3273af1, type: 3}
   m_PlayOnAwake: 1
@@ -4972,7 +4972,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2031251744}
         m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
-        m_MethodName: SetVolume
+        m_MethodName: SetMasterVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
