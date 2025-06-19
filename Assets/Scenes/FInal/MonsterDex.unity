@@ -1168,7 +1168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetMonsterView
+      value: HideAllChilds
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1181,6 +1181,10 @@ PrefabInstance:
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MonsterDex, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -1294,6 +1298,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7db3f39476bdd094a9fff9a27691b9d1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1eb529d0ce8ffdc4fb7e09d1db237ffb, type: 2}
     - target: {fileID: 919132149155446097, guid: 7db3f39476bdd094a9fff9a27691b9d1, type: 3}
       propertyPath: m_Name
       value: IMCEo-9-or
@@ -2996,7 +3004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetMonsterView
+      value: HideAllChilds
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -3009,6 +3017,10 @@ PrefabInstance:
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MonsterDex, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -3389,7 +3401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetMonsterView
+      value: HideAllChilds
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -3402,6 +3414,10 @@ PrefabInstance:
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MonsterDex, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -3949,7 +3965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetMonsterView
+      value: HideAllChilds
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -3962,6 +3978,10 @@ PrefabInstance:
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MonsterDex, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -4155,7 +4175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetMonsterView
+      value: HideAllChilds
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -4168,6 +4188,10 @@ PrefabInstance:
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MonsterDex, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -4291,6 +4315,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 813f92686486bca49b5a3bc09c4111a8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c094cab07d7a7144ac53f3bf7b7dada, type: 2}
     - target: {fileID: 919132149155446097, guid: 813f92686486bca49b5a3bc09c4111a8, type: 3}
       propertyPath: m_Name
       value: blueblue
@@ -4895,12 +4923,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 1820005695}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b46ff5684371da045b3a9fe7f4fbdd88, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b46ff5684371da045b3a9fe7f4fbdd88, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b46ff5684371da045b3a9fe7f4fbdd88, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b46ff5684371da045b3a9fe7f4fbdd88, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b46ff5684371da045b3a9fe7f4fbdd88, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b46ff5684371da045b3a9fe7f4fbdd88, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4934,6 +4974,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b46ff5684371da045b3a9fe7f4fbdd88, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b46ff5684371da045b3a9fe7f4fbdd88, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 12171c4cb919ebc43a644cc0fb145f87, type: 2}
     - target: {fileID: 919132149155446097, guid: b46ff5684371da045b3a9fe7f4fbdd88, type: 3}
       propertyPath: m_Name
       value: charli
@@ -5226,7 +5274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetMonsterView
+      value: HideAllChilds
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -5239,6 +5287,10 @@ PrefabInstance:
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MonsterDex, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -5513,7 +5565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetMonsterView
+      value: HideAllChilds
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -5522,6 +5574,10 @@ PrefabInstance:
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: HideAllChilds
+      objectReference: {fileID: 0}
+    - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MonsterDex, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -5947,12 +6003,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HideAllChilds
+      objectReference: {fileID: 0}
+    - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: HideAllChilds
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MonsterDex, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 949663742813243339, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
