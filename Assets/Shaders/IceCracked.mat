@@ -62,7 +62,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SimpleParallax_33f8424a4b4f4732838f210711e651f7_Texture2D_3120686133_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 512c1dc111faff04c82e495f243c3281, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_c8d9629503664254974d3d4fd829bdef_Out_0_Texture2D:
