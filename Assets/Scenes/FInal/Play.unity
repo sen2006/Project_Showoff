@@ -5241,11 +5241,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &306209877 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7822262776537714433, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
-  m_PrefabInstance: {fileID: 621104616}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &318091841
 GameObject:
   m_ObjectHideFlags: 0
@@ -7738,14 +7733,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 692610463}
     m_Modifications:
-    - target: {fileID: 1383325538737750277, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1383325538737750277, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6165758881841683520, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7830,42 +7817,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraShutter
       objectReference: {fileID: 0}
-    - target: {fileID: 7822262776537714433, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7822262776537714433, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 621104622}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
 --- !u!224 &621104617 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6165758881841683520, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
   m_PrefabInstance: {fileID: 621104616}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &621104618 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6369079860065607363, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
+--- !u!114 &621104622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3164150839031809821, guid: f35e1116edc57e94a851da37a4a8d77f, type: 3}
   m_PrefabInstance: {fileID: 621104616}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &621104622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306209877}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3e0355f9295d8c4dafdc83eea6d518b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shutterAnimator: {fileID: 621104618}
-  shutterSound: {fileID: 0}
 --- !u!1 &630440119
 GameObject:
   m_ObjectHideFlags: 0
@@ -9374,12 +9346,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
