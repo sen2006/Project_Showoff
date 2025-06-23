@@ -58,9 +58,17 @@ Material:
     - _DistrotionScale: 19
     - _DistrotionSpeed: 0.05
     - _DistrotionStrenght: 0.05
+    - _DoamCutoff: 1
     - _Foam: 1
+    - _FoamAmount: 1
+    - _FoamCutOffSoftness: 0.3
+    - _FoamCutoff: 1
+    - _FoamDistance: 0.5
+    - _FoamWidth: -0.2
     - _Gradient_Noise: 3.37
+    - _IntersectionDepth: 0.5
     - _LavaSpeed: 0.005
+    - _Lava_Tiling: 3
     - _Lava_Tilling: 3
     - _Panning: 0.005
     - _QueueControl: 0
@@ -69,5 +77,6 @@ Material:
     - _WaveSpeed: 0.05
     m_Colors:
     - _Color: {r: 4.937271, g: 0.7893991, b: 0, a: 1}
+    - _FoamColor: {r: 1, g: 0.009047524, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

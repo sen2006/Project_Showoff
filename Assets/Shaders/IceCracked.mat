@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_36db21a764e04fe6b2153cf263f49ade_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 03a8e355f81a2f64ba850de4f4994e6c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 140207c6c9c43b54298d0be61dc5074c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_7da16f3605354c55be77f0219de7cfdd_Texture_1_Texture2D:
@@ -50,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_c7546943e8f1487e9cd4284f2b6eb6a2_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 4167bf33a3677504b86a0b51557a6ed0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 792174608ae4b4144b045655211c8bf7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_ca4a1bdcb04045b89bcaac494194ada1_Texture_1_Texture2D:
@@ -66,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_c8d9629503664254974d3d4fd829bdef_Out_0_Texture2D:
-        m_Texture: {fileID: 2800000, guid: d551067afd37c5f4ba886307b3a4817f, type: 3}
+        m_Texture: {fileID: 2800000, guid: ed26cc82235af0a44a1ab692979b1ac8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -83,7 +83,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ParallaxOffset: -0.001
+    - _ParallaxOffset: -0.003
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
