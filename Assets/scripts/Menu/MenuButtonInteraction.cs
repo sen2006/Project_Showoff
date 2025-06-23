@@ -30,4 +30,10 @@ public class MenuButtonInteraction : MonoBehaviour, IPointerEnterHandler, IPoint
     {
         onHoverExit.Invoke();
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Game is quitting...");
+    }
 }
