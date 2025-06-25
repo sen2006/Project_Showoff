@@ -91,11 +91,16 @@ public class PlayerControl : MonoBehaviour {
         photo.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
         photo.Apply();
 
+        int score = _visibilityChecker.getScore();
+
+        // save to session buffer
+        SessionBuffer.SaveImageToBuffer(photo, score);
+
         // Save to file
         string folderPath = Application.persistentDataPath + "/" + screenshotPath;
         if (!System.IO.Directory.Exists(folderPath))
             System.IO.Directory.CreateDirectory(folderPath);
-        string screenshotName = System.DateTime.Now.ToString("yyyyMMdd-HHmmss_") + _visibilityChecker.getScore() + ".png";
+        string screenshotName = System.DateTime.Now.ToString("yyyyMMdd-HHmmss_") + score + ".png";
         byte[] bytes = photo.EncodeToPNG();
         System.IO.File.WriteAllBytes(System.IO.Path.Combine(folderPath, screenshotName), bytes);
         Debug.Log("Screenshot taken: " + System.IO.Path.Combine(folderPath, screenshotName));
