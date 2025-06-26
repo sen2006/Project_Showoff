@@ -6,6 +6,5 @@ public class SkyboxChanger : MonoBehaviour
     public void ChangeSkybox(Material skyboxMat)
     {
         RenderSettings.skybox = skyboxMat;
-        DynamicGI.UpdateEnvironment();
     }
 }
