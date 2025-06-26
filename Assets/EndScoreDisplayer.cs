@@ -11,6 +11,9 @@ public class EndScoreDisplayer : MonoBehaviour {
     [SerializeField] private List<TMP_Text> scoreText;
 
     void Start() {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         Debug.Assert(images.Count == 3, "image list length needs to be 3");
         Debug.Assert(scoreText.Count == 3, "scoreText list length needs to be 3");
 
