@@ -44,6 +44,7 @@ public class PlayerControl : MonoBehaviour {
     }
 
     void Update() {
+        if (PauseMenu.gameIsPaused) return; // do not update if the game is paused
         handleInput();
         playerRotation();
     }
