@@ -2671,6 +2671,7 @@ Transform:
   - {fileID: 529910323}
   - {fileID: 1601414566}
   - {fileID: 60808749}
+  - {fileID: 1804321906}
   m_Father: {fileID: 2080868276}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &182718625
@@ -27036,7 +27037,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 467911776}
-  - {fileID: 1530972861}
+  - {fileID: 2031223469}
   - {fileID: 150429964}
   - {fileID: 1564613604}
   - {fileID: 1898992621}
@@ -31040,6 +31041,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994470686}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2031223468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2031223469}
+  - component: {fileID: 2031223471}
+  - component: {fileID: 2031223470}
+  m_Layer: 0
+  m_Name: TriggerChangeMusicSpace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2031223469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031223468}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.15416685, z: -0, w: 0.9880448}
+  m_LocalPosition: {x: -146.02, y: 9.011, z: -12.39}
+  m_LocalScale: {x: 11.015698, y: 11.1461, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1759507142}
+  m_LocalEulerAnglesHint: {x: 0, y: -17.737, z: 0}
+--- !u!114 &2031223470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031223468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904ffb0bd7c9b9b46b1e77522634d728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicManager: {fileID: 962646740}
+--- !u!65 &2031223471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031223468}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2031597049
 PrefabInstance:
   m_ObjectHideFlags: 0
