@@ -21,12 +21,12 @@ public class BiomeMusicManager : MonoBehaviour
     public BiomeMusic[] biomeTracks;
     public float fadeDuration = 1.5f;
     public AudioMixerGroup musicMixerGroup;
+    public int currentBiomeIndex = 0;
 
     private AudioSource audioSourceA;
     private AudioSource audioSourceB;
     private AudioSource currentSource;
     private Biome currentBiome;
-    private int currentBiomeIndex = 0;
 
     void Awake()
     {
@@ -64,16 +64,6 @@ public class BiomeMusicManager : MonoBehaviour
     void Start()
     {
         currentBiomeIndex = 0;
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            currentBiomeIndex = (currentBiomeIndex + 1) % System.Enum.GetNames(typeof(Biome)).Length;
-            Biome nextBiome = (Biome)currentBiomeIndex;
-            TransitionToBiome(nextBiome);
-        }
     }
 
     public void TransitionToBiome(Biome newBiome)
