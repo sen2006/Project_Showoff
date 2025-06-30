@@ -251,6 +251,9 @@ MonoBehaviour:
   updateScoreOnUpdateLoop: 0
   visiblePOICount: 0
   achievedScore: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &7300502845395471640
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +313,7 @@ MonoBehaviour:
   yaw: 0
   pitch: 0
   screenshotPath: screenshots/
-  screenshotCooldownMS: 1000
+  screenshotCooldownMS: 2500
 --- !u!65 &8593988248747219244
 BoxCollider:
   m_ObjectHideFlags: 0

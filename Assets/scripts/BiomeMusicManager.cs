@@ -66,7 +66,7 @@ public class BiomeMusicManager : MonoBehaviour
         currentBiomeIndex = 0;
     }
 
-    void Update()
+    /*void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
@@ -74,7 +74,7 @@ public class BiomeMusicManager : MonoBehaviour
             Biome nextBiome = (Biome)currentBiomeIndex;
             TransitionToBiome(nextBiome);
         }
-    }
+    }*/
 
     public void TransitionToBiome(Biome newBiome)
     {
@@ -97,6 +97,12 @@ public class BiomeMusicManager : MonoBehaviour
         currentBiome = newBiome;
 
         Debug.Log($"Switched to biome: {newBiome}");
+    }
+
+    public void TransitionToBiome(int id)
+    {
+        Biome newBiome = (Biome)id;
+        TransitionToBiome(newBiome);
     }
 
     private AudioClip GetClipForBiome(Biome biome)
