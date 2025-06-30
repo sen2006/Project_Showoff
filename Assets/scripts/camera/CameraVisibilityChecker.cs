@@ -39,19 +39,21 @@ public class CameraVisibilityChecker : MonoBehaviour {
     /// returns a List of all visible POIs
     /// </summary>
     private List<PhotoPOI> getVisiblePOIS() {
+        Debug.Log("list:" + PhotoPOI.POIs.Count);
         List<PhotoPOI> toReturn = new List<PhotoPOI>();
         // get all renderers in the scene
-        Renderer[] allRenderers = FindObjectsByType<Renderer>(FindObjectsSortMode.None);
+        //Renderer[] allRenderers = FindObjectsByType<Renderer>(FindObjectsSortMode.None);
         // get the frustum planes of the camera
         Plane[] frustumPlanes = GeometryUtility.CalculateFrustumPlanes(cam);
 
         // for every renderer chech if it is
         // 1: inside the frustum planes
         // 2: not blocked by a "Block View" tab
-        foreach (Renderer renderer in allRenderers) {
-            if (renderer.isVisible && GeometryUtility.TestPlanesAABB(frustumPlanes, renderer.bounds) &&
-                renderer.gameObject.GetComponent<PhotoPOI>() != null) {
-                PhotoPOI POI = renderer.gameObject.GetComponent<PhotoPOI>();
+        foreach (PhotoPOI POI in PhotoPOI.POIs)
+        {
+            if (POI.gameObject.activeSelf && GeometryUtility.TestPlanesAABB(frustumPlanes, new Bounds(POI.transform.position,new Vector3(.1f,.1f,.1f))))
+            {
+                Debug.Log("test:"+POI);
                 Vector3 dif = (POI.gameObject.transform.position) - cam.transform.position;
                 Color ray = !Physics.Raycast(cam.transform.position, dif.normalized, dif.magnitude, layerMask) ? Color.green : Color.red;
                 Debug.DrawLine(cam.transform.position, cam.transform.position + dif, ray);
