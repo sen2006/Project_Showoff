@@ -19,10 +19,9 @@ public class LeaderboardScores : MonoBehaviour {
     public TMP_InputField score;
     public TMP_InputField display;
 
-    List<PlayerInfo> highscores;
+    readonly List<PlayerInfo> highscores = new List<PlayerInfo>();
 
     void Start() {
-        highscores = new List<PlayerInfo>();
         LoadLeaderBoard();
     }
 

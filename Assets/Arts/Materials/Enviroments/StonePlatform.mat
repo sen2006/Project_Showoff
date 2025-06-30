@@ -23,7 +23,11 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - MainTex:
+        m_Texture: {fileID: 2800000, guid: 412ad6513de1b9348933c369dfc4a5ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - Brightness_Rim: 0.73
