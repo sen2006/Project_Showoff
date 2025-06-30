@@ -10,6 +10,8 @@ public class EndScoreDisplayer : MonoBehaviour {
     [SerializeField] private List<Image> images;
     [SerializeField] private List<TMP_Text> scoreText;
 
+    [SerializeField] private TMP_Text totalScoreText;
+
     void Start() {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
@@ -66,5 +68,12 @@ public class EndScoreDisplayer : MonoBehaviour {
             scoreText[2].gameObject.SetActive(true);
             scoreText[2].text = "SCORE: " + nrThree.Item2;
         }
+
+        if (totalScoreText == null)
+        {
+            Debug.Log("End score display is missing!!!");
+        }
+
+        totalScoreText.text = "SCORE: " + SessionBuffer.GetScoreBuffer();
     }
 }
