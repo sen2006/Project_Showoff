@@ -17,9 +17,9 @@ public class EndScoreDisplayer : MonoBehaviour {
         Debug.Assert(images.Count == 3, "image list length needs to be 3");
         Debug.Assert(scoreText.Count == 3, "scoreText list length needs to be 3");
 
-        Tuple<Texture2D, int> nrOne = Tuple.Create((Texture2D)null, 0);
-        Tuple<Texture2D, int> nrTwo = Tuple.Create((Texture2D)null, 0);
-        Tuple<Texture2D, int> nrThree = Tuple.Create((Texture2D)null, 0);
+        Tuple<Texture2D, int> nrOne = Tuple.Create((Texture2D)null, -1);
+        Tuple<Texture2D, int> nrTwo = Tuple.Create((Texture2D)null, -1);
+        Tuple<Texture2D, int> nrThree = Tuple.Create((Texture2D)null, -1);
         Dictionary<Texture2D, int> takenPhotos = SessionBuffer.getImageBuffer();
         Debug.Log("total photos taken in session:" + takenPhotos.Count);
         foreach (Texture2D image in takenPhotos.Keys) {
