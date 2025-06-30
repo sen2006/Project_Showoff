@@ -144,6 +144,22 @@ PrefabInstance:
         He
         can defeat other monsters by making them dizzy.'
       objectReference: {fileID: 0}
+    - target: {fileID: 603124827740342150, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 603124827740342150, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 603124827740342150, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 603124827740342150, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 697071707548415298, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -291,6 +307,38 @@ PrefabInstance:
     - target: {fileID: 8056340152031576593, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251371918738475913, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251371918738475913, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251371918738475913, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251371918738475913, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 3355443200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253232237501846279, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253232237501846279, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.42285964
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253232237501846279, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253232237501846279, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278217983
       objectReference: {fileID: 0}
     - target: {fileID: 8292688113289221599, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
       propertyPath: m_IsActive
@@ -2526,7 +2574,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 340353138884316859, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
       propertyPath: m_text
-      value: 'Kitty lives in Ice Land.
+      value: 'Kitty lives in Iceland.
 
         She likes cats and dogs.
 
@@ -2539,6 +2587,38 @@ PrefabInstance:
     - target: {fileID: 793046583391149568, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604961501646114582, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604961501646114582, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.35150695
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604961501646114582, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604961501646114582, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294924800
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607338732843210648, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607338732843210648, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607338732843210648, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1607338732843210648, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 3372220415
       objectReference: {fileID: 0}
     - target: {fileID: 1892415373235027146, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3473,7 +3553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3560297715398976871, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_text
-      value: Alle Powered Monster
+      value: All Powered Monster
       objectReference: {fileID: 0}
     - target: {fileID: 3560297715398976871, guid: 319886537dbdf0d46af42a93ca130351, type: 3}
       propertyPath: m_fontSize
@@ -5844,8 +5924,8 @@ PrefabInstance:
         He loves ice
         cream, puppies, and horses.
 
-        He is going to Iraq and loves to go
-        with his parents.'
+        He loves to travel to Iraq with his
+        parents.'
       objectReference: {fileID: 0}
     - target: {fileID: 793046583391149568, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
       propertyPath: m_IsActive

@@ -9,7 +9,7 @@ public class CameraVisibilityChecker : MonoBehaviour {
     [SerializeField] bool updateScoreOnUpdateLoop = false;
     [SerializeField, ReadOnly] int visiblePOICount;
     [SerializeField, ReadOnly] int achievedScore;
-    LayerMask layerMask;
+    [SerializeField, ReadOnly] LayerMask layerMask;
 
 
     void Awake() {
@@ -28,6 +28,7 @@ public class CameraVisibilityChecker : MonoBehaviour {
     private void UpdateScore() {
         List<PhotoPOI> visiblePOIs = getVisiblePOIS();
 
+        achievedScore = 0;
         foreach (PhotoPOI POI in visiblePOIs)
             achievedScore += POI.GetPoints();
 
@@ -51,8 +52,10 @@ public class CameraVisibilityChecker : MonoBehaviour {
             if (renderer.isVisible && GeometryUtility.TestPlanesAABB(frustumPlanes, renderer.bounds) &&
                 renderer.gameObject.GetComponent<PhotoPOI>() != null) {
                 PhotoPOI POI = renderer.gameObject.GetComponent<PhotoPOI>();
-                Vector3 dif = POI.gameObject.transform.position - cam.transform.position;
-                if (Physics.Raycast(cam.transform.position, dif.normalized, dif.magnitude, layerMask))
+                Vector3 dif = (POI.gameObject.transform.position) - cam.transform.position;
+                Color ray = !Physics.Raycast(cam.transform.position, dif.normalized, dif.magnitude, layerMask) ? Color.green : Color.red;
+                Debug.DrawLine(cam.transform.position, cam.transform.position + dif, ray);
+                if (!Physics.Raycast(cam.transform.position, dif.normalized, dif.magnitude, layerMask))
                     toReturn.Add(POI);
             }
         }

@@ -10,6 +10,8 @@ public class EndScoreDisplayer : MonoBehaviour {
     [SerializeField] private List<Image> images;
     [SerializeField] private List<TMP_Text> scoreText;
 
+    [SerializeField] private TMP_Text totalScoreText;
+
     void Start() {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
@@ -17,9 +19,9 @@ public class EndScoreDisplayer : MonoBehaviour {
         Debug.Assert(images.Count == 3, "image list length needs to be 3");
         Debug.Assert(scoreText.Count == 3, "scoreText list length needs to be 3");
 
-        Tuple<Texture2D, int> nrOne = Tuple.Create((Texture2D)null, 0);
-        Tuple<Texture2D, int> nrTwo = Tuple.Create((Texture2D)null, 0);
-        Tuple<Texture2D, int> nrThree = Tuple.Create((Texture2D)null, 0);
+        Tuple<Texture2D, int> nrOne = Tuple.Create((Texture2D)null, -1);
+        Tuple<Texture2D, int> nrTwo = Tuple.Create((Texture2D)null, -1);
+        Tuple<Texture2D, int> nrThree = Tuple.Create((Texture2D)null, -1);
         Dictionary<Texture2D, int> takenPhotos = SessionBuffer.getImageBuffer();
         Debug.Log("total photos taken in session:" + takenPhotos.Count);
         foreach (Texture2D image in takenPhotos.Keys) {
@@ -66,5 +68,12 @@ public class EndScoreDisplayer : MonoBehaviour {
             scoreText[2].gameObject.SetActive(true);
             scoreText[2].text = "SCORE: " + nrThree.Item2;
         }
+
+        if (totalScoreText == null)
+        {
+            Debug.Log("End score display is missing!!!");
+        }
+
+        totalScoreText.text = "SCORE: " + SessionBuffer.GetScoreBuffer();
     }
 }

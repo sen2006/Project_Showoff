@@ -1972,6 +1972,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Ice
       objectReference: {fileID: 0}
+    - target: {fileID: 8779551514351982440, guid: e961e94d70fab9b46a22f6e0e5ee3ece, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 3355443200
+      objectReference: {fileID: 0}
     - target: {fileID: 8781076317046214630, guid: e961e94d70fab9b46a22f6e0e5ee3ece, type: 3}
       propertyPath: m_text
       value: Ice

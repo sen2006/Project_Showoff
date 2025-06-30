@@ -89,6 +89,12 @@ public class BiomeMusicManager : MonoBehaviour
         Debug.Log($"Switched to biome: {newBiome}");
     }
 
+    public void TransitionToBiome(int id)
+    {
+        Biome newBiome = (Biome)id;
+        TransitionToBiome(newBiome);
+    }
+
     private AudioClip GetClipForBiome(Biome biome)
     {
         foreach (var entry in biomeTracks)

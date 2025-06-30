@@ -16,23 +16,29 @@ public class PlayerInfo
 
 public class LeaderboardScores : MonoBehaviour {
     public TMP_InputField userName;
-    public TMP_InputField score;
+    //public TMP_InputField score;
     public TMP_InputField display;
 
-    List<PlayerInfo> highscores;
+    readonly List<PlayerInfo> highscores = new List<PlayerInfo>();
 
     void Start() {
-        highscores = new List<PlayerInfo>();
         LoadLeaderBoard();
     }
 
     public void SubmitButton() {
-        if (userName.text.Length == 0 || score.text.Length == 0) return;
+        //if (userName.text.Length == 0 || score.text.Length == 0) return;
 
-        AddStats(userName.text, int.Parse(score.text));
+        //AddStats(userName.text, int.Parse(score.text));
 
-        userName.text = "";
-        score.text = "";
+        //userName.text = "";
+        //score.text = "";
+
+        if (userName.text.Length == 0) return;
+
+        AddStats(userName.text, SessionBuffer.GetScoreBuffer());
+
+        Debug.Log("boom");
+        Destroy(gameObject);
     }
 
     public void AddStats(string pName, int pScore) {
@@ -77,7 +83,7 @@ public class LeaderboardScores : MonoBehaviour {
 
         PlayerPrefs.SetString("LeaderBoards", stats);
 
-        UpdateLeaderBoardDisplay();
+        if (display != null) UpdateLeaderBoardDisplay();
     }
 
     void UpdateLeaderBoardDisplay() {
@@ -99,7 +105,7 @@ public class LeaderboardScores : MonoBehaviour {
 
                 highscores.Add(loadedInfo);
 
-                UpdateLeaderBoardDisplay();
+                if (display != null) UpdateLeaderBoardDisplay();
             }
         }
     }
