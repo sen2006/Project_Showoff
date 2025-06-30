@@ -53,7 +53,6 @@ public class CameraVisibilityChecker : MonoBehaviour {
         {
             if (POI.gameObject.activeSelf && GeometryUtility.TestPlanesAABB(frustumPlanes, new Bounds(POI.transform.position,new Vector3(.1f,.1f,.1f))))
             {
-                Debug.Log("test:"+POI);
                 Vector3 dif = (POI.gameObject.transform.position) - cam.transform.position;
                 Color ray = !Physics.Raycast(cam.transform.position, dif.normalized, dif.magnitude, layerMask) ? Color.green : Color.red;
                 Debug.DrawLine(cam.transform.position, cam.transform.position + dif, ray);
