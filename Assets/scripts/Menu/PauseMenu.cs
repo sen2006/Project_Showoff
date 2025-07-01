@@ -4,13 +4,14 @@ using UnityEngine.UI;
 public class PauseMenu : MonoBehaviour
 {
     public static bool gameIsPaused = false;
+    public static bool controllerPausePressed = false;
 
     [SerializeField]
     private GameObject pauseMenuUI;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || controllerPausePressed)
         {
             if (gameIsPaused)
             {
@@ -32,6 +33,7 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
 
         gameIsPaused = false;
+        controllerPausePressed = false;
     }
 
     private void Pause()
