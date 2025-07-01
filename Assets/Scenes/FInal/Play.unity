@@ -6346,6 +6346,10 @@ PrefabInstance:
       value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 5549282133750884422, guid: ef57b0f3a1d87ef47a2dbcd1228ddeaf, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 856946164069597192}
+    - target: {fileID: 5549282133750884422, guid: ef57b0f3a1d87ef47a2dbcd1228ddeaf, type: 3}
       propertyPath: useMaxYaw
       value: 1
       objectReference: {fileID: 0}

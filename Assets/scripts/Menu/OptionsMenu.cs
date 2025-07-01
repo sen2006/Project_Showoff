@@ -46,11 +46,10 @@ public class OptionsMenu : MonoBehaviour {
             musicVolumeSlider.value = Mathf.Pow(10f, musicVolume / 20f);
 
         if (sfxVolumeSlider != null)
-        {
             sfxVolumeSlider.value = Mathf.Pow(10f, sfxVolume / 20f);
-        }
 
-        SetSensitivity(sensSlider.value);
+        SetSensitivity(sensitivity);
+        sensSlider.value = sensitivity;
     }
 
     public void SetMasterVolume(float volume) {

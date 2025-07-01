@@ -8,6 +8,7 @@ public class PlayerControl : MonoBehaviour {
     [SerializeField] GameObject visualCart;
     [SerializeField] GameObject playerCamera;
     [SerializeField] ShutterController shutterController;
+    [SerializeField] PauseMenu pauseMenu;
 
     [Header("Camera Settings")]
     [SerializeField] float horizontalMouseSensitivity = 1;
@@ -28,11 +29,9 @@ public class PlayerControl : MonoBehaviour {
 
     InputAction photoAction;
     InputAction lookAction;
-    
     InputAction pauseGameAction;
 
     bool photoLocked = false;
-    bool pauseLocked = false;
 
     private void Start() {
         _camera = playerCamera.GetComponent<Camera>();
@@ -44,8 +43,8 @@ public class PlayerControl : MonoBehaviour {
         Cursor.lockState = CursorLockMode.Locked;
         photoAction = InputSystem.actions.FindAction("Jump");
         lookAction = InputSystem.actions.FindAction("Look");
-        
         pauseGameAction = InputSystem.actions.FindAction("PauseGame");
+        pauseGameAction.performed += ctx => HandlePauseInput();
     }
 
     void Update() {
@@ -65,11 +64,15 @@ public class PlayerControl : MonoBehaviour {
         pitch = Mathf.Clamp(pitch, -maxPitchDown, maxPitchUp);
         //if (Input.GetButtonDown(takePhotoKey)) takePhoto();
         if (photoAction.IsPressed() && !photoLocked) takePhoto();
-        if (pauseGameAction.IsPressed() && !pauseLocked)
-        {
-            PauseMenu.controllerPausePressed = true;
-            StartCoroutine(PauseCooldown(500));
-        }
+    }
+
+
+    /// <summary>
+    /// handles the input for the pause menu
+    /// </summary>
+    private void HandlePauseInput()
+    {
+        pauseMenu.PauseResumeGame();
     }
 
     /// <summary>
@@ -132,12 +135,5 @@ public class PlayerControl : MonoBehaviour {
         photoLocked = true;
         yield return new WaitForSeconds(ms/1000);
         photoLocked = false;
-    }
-
-    private IEnumerator PauseCooldown(int ms)
-    {
-        pauseLocked = true;
-        yield return new WaitForSeconds(ms / 1000);
-        pauseLocked = false;
     }
 }
