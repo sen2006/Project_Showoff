@@ -10,6 +10,9 @@ public static class GalleryLoader {
     /// loads all images from the files
     /// </summary>
     public static void Load() {
+        foreach (TextureDetails details in imageBuffer) {
+            Object.Destroy(details.getTexture());
+        }
         imageBuffer.Clear();
         Debug.Log("reading files in: " + Application.persistentDataPath + "/" + filePath);
         string[] files = System.IO.Directory.GetFiles(Application.persistentDataPath + "/" + filePath);

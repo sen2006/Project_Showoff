@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Threading;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -116,7 +115,6 @@ public class PlayerControl : MonoBehaviour {
         // Clean up (GPU managed stuff has to be destroyed)
         _camera.targetTexture = null;
         Destroy(photoRT);
-        Destroy(photo);
         StartCoroutine(PhotoCooldown(screenshotCooldownMS));
     }
 
