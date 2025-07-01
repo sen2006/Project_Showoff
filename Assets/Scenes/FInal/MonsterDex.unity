@@ -10650,7 +10650,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 340353138884316859, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
       propertyPath: m_text
-      value: ...
+      value: The superpower of Mr. Scary Mouse is everything.
       objectReference: {fileID: 0}
     - target: {fileID: 697071707548415298, guid: 11d8931e5238e1f459ae5e4b37f17ca6, type: 3}
       propertyPath: m_IsActive
