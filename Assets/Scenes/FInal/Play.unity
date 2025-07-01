@@ -199,6 +199,10 @@ PrefabInstance:
       value: LavaFall (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7422688977936444690, guid: 3787b15615456a244b830b8c97e379dc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422688977936444690, guid: 3787b15615456a244b830b8c97e379dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -276,7 +280,7 @@ GameObject:
   - component: {fileID: 19154576}
   - component: {fileID: 19154575}
   - component: {fileID: 19154574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -385,7 +389,7 @@ GameObject:
   - component: {fileID: 19423546}
   - component: {fileID: 19423545}
   - component: {fileID: 19423544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,6 +564,10 @@ PrefabInstance:
       value: Stalagmites (50)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -582,7 +590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 24227379}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Penguin Posters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,6 +625,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -849,7 +861,7 @@ GameObject:
   - component: {fileID: 57860049}
   - component: {fileID: 57860048}
   - component: {fileID: 57860047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -972,7 +984,7 @@ GameObject:
   - component: {fileID: 60705991}
   - component: {fileID: 60705990}
   - component: {fileID: 60705989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1094,7 +1106,7 @@ GameObject:
   - component: {fileID: 60808752}
   - component: {fileID: 60808751}
   - component: {fileID: 60808750}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: IcePlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,6 +1268,10 @@ PrefabInstance:
       value: LavaPebble (37)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -1283,7 +1299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1367,7 +1383,7 @@ GameObject:
   - component: {fileID: 78087444}
   - component: {fileID: 78087443}
   - component: {fileID: 78087442}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1564,7 +1580,7 @@ GameObject:
   - component: {fileID: 106979333}
   - component: {fileID: 106979332}
   - component: {fileID: 106979331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1692,7 +1708,7 @@ GameObject:
   - component: {fileID: 123842711}
   - component: {fileID: 123842710}
   - component: {fileID: 123842709}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1816,7 +1832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1957,6 +1973,10 @@ PrefabInstance:
       value: Stalagmites (34)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -1981,6 +2001,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2179,7 +2203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 151418859}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mine Craft Stuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2223,6 +2247,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2359,6 +2387,10 @@ PrefabInstance:
       value: Stalagmites (64)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -2381,7 +2413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 170345495}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Middle Planets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2479,6 +2511,10 @@ PrefabInstance:
       value: LavaRock (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -2514,7 +2550,7 @@ GameObject:
   - component: {fileID: 179336466}
   - component: {fileID: 179336465}
   - component: {fileID: 179336464}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2689,6 +2725,10 @@ PrefabInstance:
       value: LavaRock (11)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -2715,7 +2755,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 182424657}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Ice Enviroment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2790,7 +2830,6 @@ Transform:
   - {fileID: 529910323}
   - {fileID: 1601414566}
   - {fileID: 60808749}
-  - {fileID: 1804321906}
   m_Father: {fileID: 2080868276}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &189529429
@@ -2856,6 +2895,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2934,6 +2977,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3019,6 +3066,10 @@ PrefabInstance:
       value: Stalagmites (65)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3048,6 +3099,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3189,6 +3244,10 @@ PrefabInstance:
       value: LavaRock (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3271,6 +3330,10 @@ PrefabInstance:
       value: Stalagmites (55)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3349,6 +3412,10 @@ PrefabInstance:
       value: LavaRock (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3376,7 +3443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3525,7 +3592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3555,6 +3622,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3639,7 +3710,7 @@ GameObject:
   - component: {fileID: 266158286}
   - component: {fileID: 266158285}
   - component: {fileID: 266158284}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3761,7 +3832,7 @@ GameObject:
   - component: {fileID: 269612197}
   - component: {fileID: 269612196}
   - component: {fileID: 269612195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3922,6 +3993,10 @@ PrefabInstance:
       value: LavaRock
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3946,6 +4021,10 @@ PrefabInstance:
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_Name
       value: LavaPillar 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4030,7 +4109,7 @@ GameObject:
   - component: {fileID: 281812685}
   - component: {fileID: 281812684}
   - component: {fileID: 281812683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4158,7 +4237,7 @@ GameObject:
   - component: {fileID: 295277255}
   - component: {fileID: 295277254}
   - component: {fileID: 295277253}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4305,7 +4384,7 @@ GameObject:
   - component: {fileID: 316872553}
   - component: {fileID: 316872552}
   - component: {fileID: 316872551}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4478,6 +4557,10 @@ PrefabInstance:
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_Name
       value: LavaRock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4663,7 +4746,7 @@ GameObject:
   - component: {fileID: 333644095}
   - component: {fileID: 333644094}
   - component: {fileID: 333644093}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ring 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4785,6 +4868,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4931,6 +5018,10 @@ PrefabInstance:
       value: Stalagmites (63)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5020,7 +5111,7 @@ GameObject:
   - component: {fileID: 353121265}
   - component: {fileID: 353121264}
   - component: {fileID: 353121263}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5129,7 +5220,7 @@ GameObject:
   - component: {fileID: 357867999}
   - component: {fileID: 357867998}
   - component: {fileID: 357867997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5252,7 +5343,7 @@ GameObject:
   - component: {fileID: 359988842}
   - component: {fileID: 359988841}
   - component: {fileID: 359988840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5425,6 +5516,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5666,7 +5761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f2fd697563518b546a9d7d0213a8157f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f2fd697563518b546a9d7d0213a8157f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5698,7 +5793,7 @@ GameObject:
   - component: {fileID: 379488478}
   - component: {fileID: 379488477}
   - component: {fileID: 379488476}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5821,7 +5916,7 @@ GameObject:
   - component: {fileID: 380224152}
   - component: {fileID: 380224151}
   - component: {fileID: 380224150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lava Lake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5989,7 +6084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6078,6 +6173,10 @@ PrefabInstance:
       value: LavaPebble (21)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -6102,6 +6201,10 @@ PrefabInstance:
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_Name
       value: LavaPillar 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6217,6 +6320,10 @@ PrefabInstance:
       propertyPath: maxPitchUp
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 5549282133750884422, guid: ef57b0f3a1d87ef47a2dbcd1228ddeaf, type: 3}
+      propertyPath: visualCart
+      value: 
+      objectReference: {fileID: 2144054488}
     - target: {fileID: 5549282133750884422, guid: ef57b0f3a1d87ef47a2dbcd1228ddeaf, type: 3}
       propertyPath: maxPitchDown
       value: 60
@@ -6374,6 +6481,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: DiamondSword
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a734024f5e1139418a5848277053299, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 0a734024f5e1139418a5848277053299, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6394,7 +6509,7 @@ GameObject:
   - component: {fileID: 425952114}
   - component: {fileID: 425952113}
   - component: {fileID: 425952112}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6620,13 +6735,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432757962}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'Space Enviroment '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &432757962
 Transform:
   m_ObjectHideFlags: 0
@@ -6659,7 +6774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6765,7 +6880,7 @@ GameObject:
   - component: {fileID: 435852135}
   - component: {fileID: 435852134}
   - component: {fileID: 435852133}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BigSphere 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6887,7 +7002,7 @@ GameObject:
   - component: {fileID: 437229642}
   - component: {fileID: 437229641}
   - component: {fileID: 437229640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6997,7 +7112,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7146,6 +7261,10 @@ PrefabInstance:
       value: LavaRock
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7175,7 +7294,7 @@ GameObject:
   - component: {fileID: 452445534}
   - component: {fileID: 452445533}
   - component: {fileID: 452445532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Penguin 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7286,7 +7405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7557,6 +7676,10 @@ PrefabInstance:
       value: Stalagmites (42)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7582,7 +7705,7 @@ GameObject:
   - component: {fileID: 470890125}
   - component: {fileID: 470890124}
   - component: {fileID: 470890123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7743,6 +7866,10 @@ PrefabInstance:
       value: LavaPillar (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7773,7 +7900,7 @@ GameObject:
   - component: {fileID: 480062841}
   - component: {fileID: 480062840}
   - component: {fileID: 480062839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8112,6 +8239,10 @@ PrefabInstance:
       value: LavaPillar 5
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -8195,7 +8326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8394,6 +8525,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8605,6 +8740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LavaPlatform (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8680,6 +8819,10 @@ PrefabInstance:
       value: LavaPebble (47)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -8706,7 +8849,7 @@ GameObject:
   - component: {fileID: 501947041}
   - component: {fileID: 501947040}
   - component: {fileID: 501947039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8881,6 +9024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LavaPlatform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8956,6 +9103,10 @@ PrefabInstance:
       value: LavaPebble (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -8983,7 +9134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9107,6 +9258,10 @@ PrefabInstance:
       value: Stalagmites (51)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -9133,7 +9288,7 @@ GameObject:
   - component: {fileID: 521838152}
   - component: {fileID: 521838151}
   - component: {fileID: 521838150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ring 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9310,7 +9465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9343,7 +9498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 171851754167748179, guid: 65a7a473b08bcbc42883d028c7640f4f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 171851754167748179, guid: 65a7a473b08bcbc42883d028c7640f4f, type: 3}
       propertyPath: m_IsActive
@@ -9419,7 +9574,7 @@ GameObject:
   - component: {fileID: 539371891}
   - component: {fileID: 539371890}
   - component: {fileID: 539371889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9759,6 +9914,10 @@ PrefabInstance:
       value: LavaPebble (19)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -9786,7 +9945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9943,6 +10102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LavaPlatform (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10018,6 +10181,10 @@ PrefabInstance:
       value: LavaPillar (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -10046,6 +10213,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10131,7 +10302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10215,7 +10386,7 @@ GameObject:
   - component: {fileID: 556356036}
   - component: {fileID: 556356035}
   - component: {fileID: 556356034}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10338,7 +10509,7 @@ GameObject:
   - component: {fileID: 556668511}
   - component: {fileID: 556668510}
   - component: {fileID: 556668509}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10577,6 +10748,10 @@ PrefabInstance:
       value: Stalagmites (41)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -10602,7 +10777,7 @@ GameObject:
   - component: {fileID: 564507099}
   - component: {fileID: 564507098}
   - component: {fileID: 564507097}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10763,6 +10938,10 @@ PrefabInstance:
       value: Stalagmites (53)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -10839,6 +11018,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10919,6 +11102,10 @@ PrefabInstance:
       value: LavaPebble (20)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -10946,7 +11133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11037,7 +11224,7 @@ GameObject:
   - component: {fileID: 581882574}
   - component: {fileID: 581882573}
   - component: {fileID: 581882572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Penguin Poster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11145,6 +11332,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11286,6 +11477,10 @@ PrefabInstance:
       value: LavaRock (8)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11315,7 +11510,7 @@ GameObject:
   - component: {fileID: 600572517}
   - component: {fileID: 600572516}
   - component: {fileID: 600572515}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11481,6 +11676,10 @@ PrefabInstance:
       value: LavaRock (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11506,7 +11705,7 @@ GameObject:
   - component: {fileID: 613559243}
   - component: {fileID: 613559242}
   - component: {fileID: 613559241}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11667,7 +11866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11697,6 +11896,10 @@ PrefabInstance:
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_Name
       value: LavaPillar 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11837,6 +12040,10 @@ PrefabInstance:
       value: LavaGround
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bdf210d3d6177874c995e66e2e5d8465, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdf210d3d6177874c995e66e2e5d8465, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11863,7 +12070,7 @@ GameObject:
   - component: {fileID: 623778260}
   - component: {fileID: 623778259}
   - component: {fileID: 623778262}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: IceFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12055,6 +12262,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: chest
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2676fbf809dbcb408b283d1a973dcbb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: b2676fbf809dbcb408b283d1a973dcbb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12126,6 +12341,10 @@ PrefabInstance:
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_Name
       value: LavaPillar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12235,6 +12454,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0e62769488480640a64e5448f7261a1, type: 3}
       propertyPath: m_Name
       value: skeleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0e62769488480640a64e5448f7261a1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12386,6 +12609,10 @@ PrefabInstance:
       value: LavaPebble
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12413,7 +12640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12485,7 +12712,7 @@ GameObject:
   - component: {fileID: 683056308}
   - component: {fileID: 683056307}
   - component: {fileID: 683056306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ring 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12661,6 +12888,10 @@ PrefabInstance:
       value: Stalagmites (54)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12744,6 +12975,10 @@ PrefabInstance:
       value: LavaRock (15)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12824,6 +13059,10 @@ PrefabInstance:
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_Name
       value: LavaPebble (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12967,6 +13206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LavaPlatform
       objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12990,7 +13233,7 @@ GameObject:
   - component: {fileID: 726300764}
   - component: {fileID: 726300763}
   - component: {fileID: 726300762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13893,7 +14136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13961,7 +14204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 754943647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stalagmite Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14092,7 +14335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 171851754167748179, guid: 65a7a473b08bcbc42883d028c7640f4f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 171851754167748179, guid: 65a7a473b08bcbc42883d028c7640f4f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14216,6 +14459,10 @@ PrefabInstance:
       value: LavaPebble (23)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -14267,7 +14514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14391,6 +14638,10 @@ PrefabInstance:
       value: LavaRock (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -14417,7 +14668,7 @@ GameObject:
   - component: {fileID: 806921253}
   - component: {fileID: 806921252}
   - component: {fileID: 806921251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14655,6 +14906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LavaPlatform (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14728,6 +14983,10 @@ PrefabInstance:
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_Name
       value: LavaRock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14810,6 +15069,10 @@ PrefabInstance:
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_Name
       value: LavaPebble (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14913,6 +15176,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Diamond-Pickaxe
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89d038c09c873f4429f95d3c7150dfae, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 89d038c09c873f4429f95d3c7150dfae, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14933,7 +15204,7 @@ GameObject:
   - component: {fileID: 821229515}
   - component: {fileID: 821229514}
   - component: {fileID: 821229513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15038,7 +15309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 826988342}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lava Pillar Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15113,7 +15384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15197,7 +15468,7 @@ GameObject:
   - component: {fileID: 871787049}
   - component: {fileID: 871787048}
   - component: {fileID: 871787047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15321,7 +15592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15434,7 +15705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15489,7 +15760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15559,6 +15830,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15693,6 +15968,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15891,7 +16170,7 @@ GameObject:
   - component: {fileID: 912758239}
   - component: {fileID: 912758238}
   - component: {fileID: 912758237}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15999,7 +16278,7 @@ GameObject:
   - component: {fileID: 914034966}
   - component: {fileID: 914034965}
   - component: {fileID: 914034964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16109,7 +16388,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16203,7 +16482,7 @@ GameObject:
   - component: {fileID: 917158620}
   - component: {fileID: 917158619}
   - component: {fileID: 917158618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BigSphere 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16411,6 +16690,10 @@ PrefabInstance:
       value: LavaPebble (41)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -16438,7 +16721,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 930659553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Big Planets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16529,6 +16812,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16678,6 +16965,10 @@ PrefabInstance:
       value: LavaFall (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7422688977936444690, guid: 3787b15615456a244b830b8c97e379dc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422688977936444690, guid: 3787b15615456a244b830b8c97e379dc, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -16817,6 +17108,10 @@ PrefabInstance:
       value: LavaPillar
       objectReference: {fileID: 0}
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -16895,6 +17190,10 @@ PrefabInstance:
       value: Stalagmites (68)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -16962,7 +17261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17016,7 +17315,7 @@ GameObject:
   - component: {fileID: 962022691}
   - component: {fileID: 962022690}
   - component: {fileID: 962022689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BigSphere 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17273,6 +17572,10 @@ PrefabInstance:
       value: LavaPebble (38)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -17299,7 +17602,7 @@ GameObject:
   - component: {fileID: 973410403}
   - component: {fileID: 973410402}
   - component: {fileID: 973410401}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tracks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17441,10 +17744,10 @@ MonoBehaviour:
         z: 4.0401397
       Rotation:
         value:
-          x: 0.78523517
-          y: 0.613259
-          z: 0.04946885
-          w: -0.06979866
+          x: 0.93027276
+          y: 0.35675418
+          z: 0.026888989
+          w: -0.081215784
     - Position:
         x: -27.25998
         y: -35.16
@@ -18503,10 +18806,10 @@ MonoBehaviour:
         z: 2.6189666
       Rotation:
         value:
-          x: -0.004171838
-          y: 0.9959772
-          z: -0.06992305
-          w: -0.055881742
+          x: -0.6173215
+          y: 0.78160226
+          z: -0.02060128
+          w: -0.087106764
     m_MetaData:
     - Mode: 0
       Tension: 0.5
@@ -18704,6 +19007,10 @@ PrefabInstance:
       value: LavaRock (13)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -18789,7 +19096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18925,6 +19232,10 @@ PrefabInstance:
       value: Stalagmites (58)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -18951,7 +19262,7 @@ GameObject:
   - component: {fileID: 983823893}
   - component: {fileID: 983823892}
   - component: {fileID: 983823891}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19074,7 +19385,7 @@ GameObject:
   - component: {fileID: 984619759}
   - component: {fileID: 984619758}
   - component: {fileID: 984619757}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19375,6 +19686,10 @@ PrefabInstance:
       value: LavaPebble (28)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -19405,7 +19720,7 @@ GameObject:
   - component: {fileID: 991155019}
   - component: {fileID: 991155018}
   - component: {fileID: 991155017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19590,6 +19905,10 @@ PrefabInstance:
       value: LavaRock (5)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -19661,7 +19980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f2fd697563518b546a9d7d0213a8157f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f2fd697563518b546a9d7d0213a8157f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19745,6 +20064,10 @@ PrefabInstance:
       value: LavaPebble (31)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -19773,6 +20096,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19909,6 +20236,10 @@ PrefabInstance:
       value: Stalagmites (36)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -19985,6 +20316,10 @@ PrefabInstance:
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_Name
       value: LavaRock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20201,6 +20536,10 @@ PrefabInstance:
       value: LavaPebble (32)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -20283,6 +20622,10 @@ PrefabInstance:
       value: LavaPillar (6)
       objectReference: {fileID: 0}
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -20311,6 +20654,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20479,6 +20826,10 @@ PrefabInstance:
       value: Stalagmites (71)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -20504,7 +20855,7 @@ GameObject:
   - component: {fileID: 1070681737}
   - component: {fileID: 1070681736}
   - component: {fileID: 1070681735}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20609,7 +20960,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1073096099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 7 Platforms to Diamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20681,7 +21032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20765,7 +21116,7 @@ GameObject:
   - component: {fileID: 1108649874}
   - component: {fileID: 1108649873}
   - component: {fileID: 1108649872}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20951,7 +21302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1117755330}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Other Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21087,6 +21438,10 @@ PrefabInstance:
       value: Stalagmites (46)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -21165,6 +21520,10 @@ PrefabInstance:
       value: LavaPebble (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -21239,7 +21598,7 @@ GameObject:
   - component: {fileID: 1132209343}
   - component: {fileID: 1132209342}
   - component: {fileID: 1132209341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21414,6 +21773,10 @@ PrefabInstance:
       value: LavaPebble (24)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -21494,6 +21857,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21703,7 +22070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22015,7 +22382,7 @@ GameObject:
   - component: {fileID: 1176810531}
   - component: {fileID: 1176810530}
   - component: {fileID: 1176810529}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22190,6 +22557,10 @@ PrefabInstance:
       value: LavaRock (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -22214,6 +22585,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22350,6 +22725,10 @@ PrefabInstance:
       value: Stalagmites (31)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -22376,7 +22755,7 @@ GameObject:
   - component: {fileID: 1193376163}
   - component: {fileID: 1193376162}
   - component: {fileID: 1193376161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22594,6 +22973,10 @@ PrefabInstance:
       value: Rock (30)
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -22805,7 +23188,7 @@ GameObject:
   - component: {fileID: 1210560599}
   - component: {fileID: 1210560598}
   - component: {fileID: 1210560597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22980,6 +23363,10 @@ PrefabInstance:
       value: LavaPebble (26)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -23060,6 +23447,10 @@ PrefabInstance:
     - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
       propertyPath: m_Name
       value: LavaPlatform (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23163,6 +23554,10 @@ PrefabInstance:
       value: Stalagmites (33)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -23263,7 +23658,7 @@ GameObject:
   - component: {fileID: 1225239033}
   - component: {fileID: 1225239032}
   - component: {fileID: 1225239031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ring 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23444,6 +23839,10 @@ PrefabInstance:
       value: LavaPebble (36)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -23469,7 +23868,7 @@ GameObject:
   - component: {fileID: 1242249197}
   - component: {fileID: 1242249196}
   - component: {fileID: 1242249195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23654,6 +24053,10 @@ PrefabInstance:
       value: LavaRock (14)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -23734,6 +24137,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23845,6 +24252,10 @@ PrefabInstance:
       value: LavaRock
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -23925,6 +24336,10 @@ PrefabInstance:
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_Name
       value: LavaPebble (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24029,6 +24444,10 @@ PrefabInstance:
       value: Stalagmites (57)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -24055,7 +24474,7 @@ GameObject:
   - component: {fileID: 1266295110}
   - component: {fileID: 1266295109}
   - component: {fileID: 1266295108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24269,6 +24688,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24337,6 +24764,10 @@ PrefabInstance:
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_Name
       value: LavaPebble (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24444,6 +24875,10 @@ PrefabInstance:
       value: LavaRock (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -24497,7 +24932,7 @@ GameObject:
   - component: {fileID: 1313036280}
   - component: {fileID: 1313036279}
   - component: {fileID: 1313036278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24671,6 +25106,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: minecraft_skeleton_skull_and_bones
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bde7191acddaae843b9b33f38e1ba2c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: bde7191acddaae843b9b33f38e1ba2c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24743,6 +25186,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24761,7 +25212,7 @@ GameObject:
   - component: {fileID: 1322763535}
   - component: {fileID: 1322763534}
   - component: {fileID: 1322763533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24936,6 +25387,10 @@ PrefabInstance:
       value: LavaPebble
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -25017,6 +25472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LavaPlatform (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25040,7 +25499,7 @@ GameObject:
   - component: {fileID: 1337155825}
   - component: {fileID: 1337155824}
   - component: {fileID: 1337155823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25307,6 +25766,10 @@ PrefabInstance:
       value: LavaPillar (7)
       objectReference: {fileID: 0}
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -25334,7 +25797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -25428,7 +25891,7 @@ GameObject:
   - component: {fileID: 1348562911}
   - component: {fileID: 1348562910}
   - component: {fileID: 1348562909}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25603,6 +26066,10 @@ PrefabInstance:
       value: LavaPebble (49)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -25700,7 +26167,7 @@ GameObject:
   - component: {fileID: 1353610917}
   - component: {fileID: 1353610916}
   - component: {fileID: 1353610915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25869,7 +26336,7 @@ GameObject:
   - component: {fileID: 1365010161}
   - component: {fileID: 1365010160}
   - component: {fileID: 1365010159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26071,6 +26538,10 @@ PrefabInstance:
       value: LavaRock (16)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -26142,7 +26613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26170,7 +26641,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1379843920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pebble Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26336,6 +26807,10 @@ PrefabInstance:
       value: LavaPebble (40)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -26361,7 +26836,7 @@ GameObject:
   - component: {fileID: 1388863839}
   - component: {fileID: 1388863838}
   - component: {fileID: 1388863837}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26468,6 +26943,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26604,6 +27083,10 @@ PrefabInstance:
       value: Stalagmites (44)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -26682,6 +27165,10 @@ PrefabInstance:
       value: Stalagmites (67)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -26707,7 +27194,7 @@ GameObject:
   - component: {fileID: 1401758668}
   - component: {fileID: 1401758667}
   - component: {fileID: 1401758666}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26867,6 +27354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LavaPlatform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26888,6 +27379,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -27024,6 +27519,10 @@ PrefabInstance:
       value: Stalagmites (59)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -27046,7 +27545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1416084654}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Planets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27141,6 +27640,10 @@ PrefabInstance:
       value: Stalagmites (32)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -27168,7 +27671,7 @@ GameObject:
   - component: {fileID: 1432709969}
   - component: {fileID: 1432709968}
   - component: {fileID: 1432709967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Diamond Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27747,6 +28250,10 @@ PrefabInstance:
       value: LavaPebble (39)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -27768,6 +28275,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 151418859}
     m_Modifications:
+    - target: {fileID: -8950813697685777439, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -27820,9 +28331,105 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8147921441781620931, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7784958349934763879, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5546023671432840790, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5362074128986946942, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5234669744139545813, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4819223349682164798, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3765142949797894653, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3585032457567564508, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2772723629794889946, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1783786490311469307, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
       propertyPath: m_Name
       value: strider
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836779981542170065, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016359608112740012, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298056936594424801, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558447367516944479, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100814848904396658, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6003748640134424449, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6426985002091586181, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821724625714417983, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599792861133933338, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7725438154223308711, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7851201669927346843, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110505082819619460, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8400283034617644960, guid: 596716a48dd2aa745b46f61f47fdc85c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28143,7 +28750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28197,7 +28804,7 @@ GameObject:
   - component: {fileID: 1494214503}
   - component: {fileID: 1494214502}
   - component: {fileID: 1494214501}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28361,7 +28968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28465,6 +29072,10 @@ PrefabInstance:
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_Name
       value: LavaPillar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28667,7 +29278,7 @@ GameObject:
   - component: {fileID: 1518248002}
   - component: {fileID: 1518248001}
   - component: {fileID: 1518248000}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ring 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28912,7 +29523,7 @@ GameObject:
   - component: {fileID: 1526755497}
   - component: {fileID: 1526755496}
   - component: {fileID: 1526755495}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29062,6 +29673,10 @@ PrefabInstance:
       value: MineEntrance (1)
       objectReference: {fileID: 0}
     - target: {fileID: 171851754167748179, guid: 65a7a473b08bcbc42883d028c7640f4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 171851754167748179, guid: 65a7a473b08bcbc42883d028c7640f4f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -29167,6 +29782,10 @@ PrefabInstance:
       value: Rock (29)
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -29247,6 +29866,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29332,7 +29955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29536,7 +30159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29611,6 +30234,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29747,6 +30374,10 @@ PrefabInstance:
       value: Stalagmites (62)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -29769,7 +30400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1573580117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'Lava Enviroment '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29817,7 +30448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29982,6 +30613,10 @@ PrefabInstance:
       value: LavaPillar (5)
       objectReference: {fileID: 0}
     - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092643156222698838, guid: 82e73fbffc1c6e742b00fcb48bc7fb4f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -30061,7 +30696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30115,7 +30750,7 @@ GameObject:
   - component: {fileID: 1612568470}
   - component: {fileID: 1612568469}
   - component: {fileID: 1612568468}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ring 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30368,6 +31003,10 @@ PrefabInstance:
       value: LavaRock (9)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -30477,6 +31116,10 @@ PrefabInstance:
       value: Stalagmites (40)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -30499,7 +31142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1632724728}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lava Fall Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30590,6 +31233,10 @@ PrefabInstance:
       value: LavaPebble (48)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -30667,6 +31314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LavaPlatform (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30742,6 +31393,10 @@ PrefabInstance:
       value: LavaPebble (25)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -30770,6 +31425,10 @@ PrefabInstance:
     - target: {fileID: 7422688977936444690, guid: 3787b15615456a244b830b8c97e379dc, type: 3}
       propertyPath: m_Name
       value: LavaFall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422688977936444690, guid: 3787b15615456a244b830b8c97e379dc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7422688977936444690, guid: 3787b15615456a244b830b8c97e379dc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30847,7 +31506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30952,7 +31611,7 @@ GameObject:
   - component: {fileID: 1661979387}
   - component: {fileID: 1661979386}
   - component: {fileID: 1661979385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31115,6 +31774,10 @@ PrefabInstance:
       value: Rock (21)
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -31224,7 +31887,7 @@ GameObject:
   - component: {fileID: 1686533204}
   - component: {fileID: 1686533203}
   - component: {fileID: 1686533202}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31425,7 +32088,7 @@ GameObject:
   - component: {fileID: 1704091541}
   - component: {fileID: 1704091540}
   - component: {fileID: 1704091539}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31600,6 +32263,10 @@ PrefabInstance:
       value: Stalagmites (61)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -31654,7 +32321,7 @@ GameObject:
   - component: {fileID: 1717979105}
   - component: {fileID: 1717979104}
   - component: {fileID: 1717979103}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Diamond Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32234,7 +32901,7 @@ GameObject:
   - component: {fileID: 1754985820}
   - component: {fileID: 1754985819}
   - component: {fileID: 1754985818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Penguin 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32344,7 +33011,7 @@ GameObject:
   - component: {fileID: 1755826381}
   - component: {fileID: 1755826380}
   - component: {fileID: 1755826379}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BigSphere 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32543,7 +33210,7 @@ GameObject:
   - component: {fileID: 1767747722}
   - component: {fileID: 1767747721}
   - component: {fileID: 1767747720}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32667,7 +33334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -32801,7 +33468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -32998,7 +33665,7 @@ GameObject:
   - component: {fileID: 1783187607}
   - component: {fileID: 1783187606}
   - component: {fileID: 1783187605}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BigSphere 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33247,6 +33914,10 @@ PrefabInstance:
       value: LavaPebble (27)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -33272,7 +33943,7 @@ GameObject:
   - component: {fileID: 1795569556}
   - component: {fileID: 1795569555}
   - component: {fileID: 1795569554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33381,7 +34052,7 @@ GameObject:
   - component: {fileID: 1799005104}
   - component: {fileID: 1799005103}
   - component: {fileID: 1799005102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33549,7 +34220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d7d7edf208133b7418da6e5871027501, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d7d7edf208133b7418da6e5871027501, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -33602,7 +34273,7 @@ GameObject:
   - component: {fileID: 1800518392}
   - component: {fileID: 1800518391}
   - component: {fileID: 1800518390}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33863,115 +34534,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1804321905
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1804321906}
-  - component: {fileID: 1804321909}
-  - component: {fileID: 1804321908}
-  - component: {fileID: 1804321907}
-  m_Layer: 3
-  m_Name: IcePlane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &1804321906
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804321905}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 29.54, y: 7.79, z: -1}
-  m_LocalScale: {x: 3, y: 1, z: 3}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 182424657}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!64 &1804321907
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804321905}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1804321908
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804321905}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ec258c804f38a6947ac2c6a173ffa94f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1804321909
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804321905}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1813713334
 GameObject:
   m_ObjectHideFlags: 0
@@ -33984,7 +34546,7 @@ GameObject:
   - component: {fileID: 1813713338}
   - component: {fileID: 1813713337}
   - component: {fileID: 1813713336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34273,6 +34835,10 @@ PrefabInstance:
       value: LavaPebble (29)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -34349,6 +34915,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34496,7 +35066,7 @@ GameObject:
   - component: {fileID: 1835452636}
   - component: {fileID: 1835452635}
   - component: {fileID: 1835452634}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34603,6 +35173,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34733,7 +35307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5578867115911980344, guid: 78c4daf624ffbb74fac91e9199e2d744, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34912,7 +35486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1862571393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rock Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35047,6 +35621,10 @@ PrefabInstance:
       value: Stalagmites (45)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -35097,7 +35675,7 @@ GameObject:
   - component: {fileID: 1871511047}
   - component: {fileID: 1871511046}
   - component: {fileID: 1871511045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35270,6 +35848,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -35487,6 +36069,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35503,6 +36093,10 @@ PrefabInstance:
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Name
       value: Rock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -35587,6 +36181,10 @@ PrefabInstance:
       value: Rock (32)
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -35669,7 +36267,7 @@ GameObject:
   - component: {fileID: 1898388872}
   - component: {fileID: 1898388871}
   - component: {fileID: 1898388870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36319,6 +36917,10 @@ PrefabInstance:
       value: LavaRoof
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6a491d2eb365aa646999ed700c9ccf6d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a491d2eb365aa646999ed700c9ccf6d, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -36350,7 +36952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36507,6 +37109,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36607,6 +37217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LavaPlatform (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5579590941181260864, guid: 8fa1abafa6b6ce442a5abdf6061b7443, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36680,6 +37294,10 @@ PrefabInstance:
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_Name
       value: LavaPebble (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36786,7 +37404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -36893,7 +37511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -37053,7 +37671,7 @@ GameObject:
   - component: {fileID: 1984631359}
   - component: {fileID: 1984631358}
   - component: {fileID: 1984631357}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37177,7 +37795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -37366,7 +37984,7 @@ GameObject:
   - component: {fileID: 1986853273}
   - component: {fileID: 1986853272}
   - component: {fileID: 1986853271}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37475,7 +38093,7 @@ GameObject:
   - component: {fileID: 1989446943}
   - component: {fileID: 1989446942}
   - component: {fileID: 1989446941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37598,7 +38216,7 @@ GameObject:
   - component: {fileID: 1989736572}
   - component: {fileID: 1989736571}
   - component: {fileID: 1989736570}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37722,7 +38340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -37868,6 +38486,10 @@ PrefabInstance:
       value: Stalagmites (35)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -37893,7 +38515,7 @@ GameObject:
   - component: {fileID: 1993764781}
   - component: {fileID: 1993764780}
   - component: {fileID: 1993764779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38062,7 +38684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2011029220}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Small Planets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38236,6 +38858,10 @@ PrefabInstance:
       value: Stalagmites (69)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -38336,6 +38962,10 @@ PrefabInstance:
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_Name
       value: LavaPebble (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -38476,7 +39106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7bb95d29d18f4464e8b73ffe832ac6f4, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7bb95d29d18f4464e8b73ffe832ac6f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -38531,7 +39161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -38788,6 +39418,10 @@ PrefabInstance:
       value: Stalagmites (49)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -38814,7 +39448,7 @@ GameObject:
   - component: {fileID: 2050767543}
   - component: {fileID: 2050767542}
   - component: {fileID: 2050767541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MidSphere 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38938,7 +39572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2413801698233466698, guid: 4e072f72c2ec4ce4aa7328d416ac0a7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39083,6 +39717,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 053ed1b8b917fd446adb4dc862f12e4f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39101,7 +39743,7 @@ GameObject:
   - component: {fileID: 2063210194}
   - component: {fileID: 2063210193}
   - component: {fileID: 2063210192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39307,6 +39949,10 @@ PrefabInstance:
       value: LavaRock (10)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -39416,6 +40062,10 @@ PrefabInstance:
       value: LavaRock (4)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -39494,6 +40144,10 @@ PrefabInstance:
       value: LavaPebble (42)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -39516,7 +40170,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2080868276}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Enviroment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39607,6 +40261,10 @@ PrefabInstance:
       value: Stalagmites (37)
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -39632,7 +40290,7 @@ GameObject:
   - component: {fileID: 2089634932}
   - component: {fileID: 2089634931}
   - component: {fileID: 2089634930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SmallSphere 19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39817,6 +40475,10 @@ PrefabInstance:
       value: LavaFall (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7422688977936444690, guid: 3787b15615456a244b830b8c97e379dc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422688977936444690, guid: 3787b15615456a244b830b8c97e379dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -39947,6 +40609,10 @@ PrefabInstance:
       value: LavaRock (7)
       objectReference: {fileID: 0}
     - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5481904822972616178, guid: 7146756f53e936846846631436479043, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -39982,7 +40648,7 @@ GameObject:
   - component: {fileID: 2101279768}
   - component: {fileID: 2101279767}
   - component: {fileID: 2101279766}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BigSphere 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40328,6 +40994,10 @@ PrefabInstance:
       value: LavaPebble (45)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -40359,7 +41029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7002341129449654932, guid: 808d8d4a3fce0de4f949ccbeb0eba902, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -40523,6 +41193,10 @@ PrefabInstance:
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_Name
       value: Stalagmites (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7500685405431277662, guid: 4ef87aecc863f0d44a0f3c58d3c0ca36, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -40705,6 +41379,10 @@ PrefabInstance:
       value: LavaPebble (30)
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -40781,6 +41459,10 @@ PrefabInstance:
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_Name
       value: LavaPebble (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5501859320376134436, guid: 2cf7f8ed3b50d9e48a36b8d226bbdf16, type: 3}
       propertyPath: m_StaticEditorFlags
