@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerControl : MonoBehaviour {
     [Header("Objects")]
     [SerializeField] GameObject cart;
+    [SerializeField] GameObject visualCart;
     [SerializeField] GameObject playerCamera;
     [SerializeField] ShutterController shutterController;
 
@@ -68,6 +69,9 @@ public class PlayerControl : MonoBehaviour {
     private void playerRotation() {
         float cartYaw = cart.transform.rotation.eulerAngles.y;
         transform.rotation = Quaternion.Euler(0, cartYaw + yaw, 0);
+        // rough fix for cart rotation bug
+        visualCart.transform.rotation = Quaternion.Euler(0, cartYaw+90, 0);
+        visualCart.transform.position = transform.position;
         playerCamera.transform.localRotation = Quaternion.Euler(-pitch, 0, 0);
     }
 
