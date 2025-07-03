@@ -1940,7 +1940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 55
+  rotationSpeed: 60
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &317111548
 GameObject:
@@ -2910,7 +2910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!1 &492738442
 GameObject:
@@ -4377,7 +4377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &720957232
 GameObject:
@@ -6528,7 +6528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!1 &1120717258
 GameObject:
@@ -7523,7 +7523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &1331028001
 GameObject:
@@ -7992,6 +7992,9 @@ MonoBehaviour:
   updateScoreOnUpdateLoop: 0
   visiblePOICount: 0
   achievedScore: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1386269076
 GameObject:
   m_ObjectHideFlags: 0
@@ -10962,7 +10965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &1668415857
 GameObject:
@@ -11086,7 +11089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 55
+  rotationSpeed: 60
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &1698651060
 GameObject:
@@ -11632,7 +11635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!1 &1912595999
 GameObject:

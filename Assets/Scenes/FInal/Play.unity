@@ -511,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &19423545
 SphereCollider:
@@ -992,7 +992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 60
+  rotationSpeed: 65
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &57860048
 SphereCollider:
@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &60705990
 SphereCollider:
@@ -1514,7 +1514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &78087443
 SphereCollider:
@@ -1711,7 +1711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &106979332
 SphereCollider:
@@ -1839,7 +1839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &123842710
 SphereCollider:
@@ -2306,7 +2306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &151418859
 Transform:
   m_ObjectHideFlags: 0
@@ -2681,7 +2681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &179336465
 SphereCollider:
@@ -3929,7 +3929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &266158285
 SphereCollider:
@@ -4328,7 +4328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &281812684
 SphereCollider:
@@ -4456,7 +4456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &295277254
 SphereCollider:
@@ -4603,7 +4603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &316872552
 SphereCollider:
@@ -4965,7 +4965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 65
+  rotationSpeed: 70
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!64 &333644094
 MeshCollider:
@@ -5439,7 +5439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &357867998
 SphereCollider:
@@ -5562,7 +5562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &359988841
 SphereCollider:
@@ -5949,7 +5949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &379488477
 SphereCollider:
@@ -7039,7 +7039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &435852134
 SphereCollider:
@@ -8059,7 +8059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &480062840
 SphereCollider:
@@ -9028,7 +9028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &501947040
 SphereCollider:
@@ -9485,7 +9485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 65
+  rotationSpeed: 70
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!64 &521838151
 MeshCollider:
@@ -9771,7 +9771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &539371890
 SphereCollider:
@@ -10583,7 +10583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &556356035
 SphereCollider:
@@ -10706,7 +10706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &556668510
 SphereCollider:
@@ -12928,7 +12928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 65
+  rotationSpeed: 70
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!64 &683056307
 MeshCollider:
@@ -13449,7 +13449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &726300763
 SphereCollider:
@@ -15684,7 +15684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &871787048
 SphereCollider:
@@ -16718,7 +16718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &917158619
 SphereCollider:
@@ -17654,7 +17654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &962022690
 SphereCollider:
@@ -19620,7 +19620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &983823892
 SphereCollider:
@@ -20077,7 +20077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &991155018
 SphereCollider:
@@ -21473,7 +21473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1108649873
 SphereCollider:
@@ -22029,7 +22029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1132209342
 SphereCollider:
@@ -22813,7 +22813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1176810530
 SphereCollider:
@@ -23186,7 +23186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1193376162
 SphereCollider:
@@ -23619,7 +23619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1210560598
 SphereCollider:
@@ -24098,7 +24098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 65
+  rotationSpeed: 70
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!64 &1225239032
 MeshCollider:
@@ -24891,7 +24891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1266295109
 SphereCollider:
@@ -25348,7 +25348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1313036279
 SphereCollider:
@@ -25628,7 +25628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1322763534
 SphereCollider:
@@ -25915,7 +25915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1337155824
 SphereCollider:
@@ -26307,7 +26307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1348562910
 SphereCollider:
@@ -26583,7 +26583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &1353610916
 SphereCollider:
@@ -26752,7 +26752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 60
+  rotationSpeed: 65
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &1365010160
 SphereCollider:
@@ -29305,7 +29305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &1494214502
 SphereCollider:
@@ -29779,7 +29779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 55
+  rotationSpeed: 60
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!64 &1518248001
 MeshCollider:
@@ -30010,7 +30010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1526755496
 SphereCollider:
@@ -31264,7 +31264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 55
+  rotationSpeed: 60
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!64 &1612568469
 MeshCollider:
@@ -32420,7 +32420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1686533203
 SphereCollider:
@@ -32621,7 +32621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 60
+  rotationSpeed: 65
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &1704091540
 SphereCollider:
@@ -33544,7 +33544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1755826380
 SphereCollider:
@@ -33743,7 +33743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 60
+  rotationSpeed: 65
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1767747721
 SphereCollider:
@@ -34199,7 +34199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1783187606
 SphereCollider:
@@ -34585,7 +34585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1799005103
 SphereCollider:
@@ -36227,7 +36227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 60
+  rotationSpeed: 65
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &1871511046
 SphereCollider:
@@ -37007,7 +37007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1898388871
 SphereCollider:
@@ -38443,7 +38443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &1984631358
 SphereCollider:
@@ -38865,7 +38865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 60
+  rotationSpeed: 65
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1989446942
 SphereCollider:
@@ -38988,7 +38988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &1989736571
 SphereCollider:
@@ -40220,7 +40220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 60
+  rotationSpeed: 65
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &2050767542
 SphereCollider:
@@ -40515,7 +40515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 50
   rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!135 &2063210193
 SphereCollider:
@@ -41420,7 +41420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810fbace1e2870349b6889ae44692a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 35
   rotationAxis: {x: 1, y: 0, z: 0}
 --- !u!135 &2101279767
 SphereCollider:
